@@ -1,0 +1,941 @@
+pdb_id,attach_atom_index,attach_atom_name,attach_element,num_attached_H,degree,sasa_A2,min_dist_to_protein_A,clash_margin_A,growability_geom_status,growability_status,cone_height_A,cone_height_clear_A,cone_height_total_A,cone_half_angle_deg,cone_tip_x,cone_tip_y,cone_tip_z,cone_dir_x,cone_dir_y,cone_dir_z,cone_status,cone_reason,cone_n_accept_dirs,topo_eccentricity,topo_diameter,topo_center_score,G_total_corr_kcal,Kd_fold_from_G_total,linkerability
+3OGK,0,C01,C,3,4,0.108281916,3.4647117,0.26471162,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,3,10,10,0,,,No cone found
+3OGK,15,C16,C,3,4,0.581039142,3.079377,-0.12062311,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,10,10,0,,,Not accessible
+3OGK,1,C02,C,2,4,0.062092816,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.062 <= 0.100,0,9,10,0.1,,,Not accessible
+3OGK,3,C04,C,2,4,0.053953975,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.054 <= 0.100,0,7,10,0.3,,,Not accessible
+3OGK,12,C13,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,10,0.2,,,Not accessible
+3OGK,14,C15,C,2,4,0.675945089,2.8761878,-0.32381225,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,9,10,0.1,,,Not accessible
+3OGK,17,C18,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,10,0.2,,,Not accessible
+3OGK,18,C19,C,2,4,3.381310654,3.250807,0.050807,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,9,10,0.1,,,No cone found
+3OGK,22,C23,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,10,0.1,,,Not accessible
+3OGK,2,C03,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,10,0.2,,,Not accessible
+3OGK,4,C05,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,6,10,0.4,,,Not accessible
+3OGK,13,C14,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,10,0.2,,,Not accessible
+3OGK,16,C17,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,7,10,0.3,,,Not accessible
+3OGK,21,C22,C,1,4,0.919819994,2.7093215,-0.49067855,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,8,10,0.2,,,Not accessible
+3OGK,7,N08,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,6,10,0.4,,,Not accessible
+3OGK,11,O12,O,1,2,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,10,0.1,,,Not accessible
+3OGM,0,C01,C,3,4,0.239928074,3.2537959,0.053795815,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,10,10,0,,,No cone found
+3OGM,15,C16,C,3,4,0.896205692,3.030624,-0.16937613,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,10,10,0,,,Not accessible
+3OGM,1,C02,C,2,4,0.586395096,3.6976748,0.4976747,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,2,9,10,0.1,,,No cone found
+3OGM,3,C04,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,7,10,0.3,,,Not accessible
+3OGM,12,C13,C,2,4,0.04510464,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.045 <= 0.100,0,8,10,0.2,,,Not accessible
+3OGM,14,C15,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,10,0.1,,,Not accessible
+3OGM,17,C18,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,10,0.2,,,Not accessible
+3OGM,18,C19,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,10,0.1,,,Not accessible
+3OGM,22,C23,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,10,0.1,,,Not accessible
+3OGM,2,C03,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,10,0.2,,,Not accessible
+3OGM,4,C05,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,6,10,0.4,,,Not accessible
+3OGM,13,C14,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,10,0.2,,,Not accessible
+3OGM,16,C17,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,7,10,0.3,,,Not accessible
+3OGM,21,C22,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,10,0.2,,,Not accessible
+3OGM,7,N08,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,6,10,0.4,,,Not accessible
+3OGM,11,O12,O,1,2,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,10,0.1,,,Not accessible
+5HXB,24,C22,C,3,4,4.468006525,3.8032885,0.6032884,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,2,18,18,0,,,No cone found
+5HXB,13,C10,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,18,0.166666667,,,Not accessible
+5HXB,14,C11,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,18,0.111111111,,,Not accessible
+5HXB,17,C14,C,2,4,1.97391062,3.1900246,-0.009975433,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,10,18,0.444444444,,,Not accessible
+5HXB,10,C7,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,18,0.333333333,,,Not accessible
+5HXB,0,C1,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,18,0.444444444,,,Not accessible
+5HXB,20,C17,C,1,3,1.390479081,2.4613137,-0.7386863,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,15,18,0.166666667,,,Not accessible
+5HXB,25,C20,C,1,3,15.79371694,2.991323,-0.20867705,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,16,18,0.111111111,,,Not accessible
+5HXB,26,C21,C,1,3,2.450366511,2.2901065,-0.9098935,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,15,18,0.166666667,,,Not accessible
+5HXB,2,C3,C,1,3,0.138921691,2.6926165,-0.5073836,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,10,18,0.444444444,,,Not accessible
+5HXB,3,C4,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,18,0.388888889,,,Not accessible
+5HXB,12,C9,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,18,0.222222222,,,Not accessible
+5HXB,7,N2,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,18,0.111111111,,,Not accessible
+5HXB,8,N3,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,18,0.388888889,,,Not accessible
+5HXB,28,N4,N,1,3,0.596340978,1.5436714,-1.6563287,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,13,18,0.277777778,,,Not accessible
+6H0F,13,C14,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,6,9,0.333333333,,,Not accessible
+6H0F,17,C18,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,7,9,0.222222222,,,Not accessible
+6H0F,9,N10,N,2,3,0.880887477,2.326089,-0.87391114,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,9,9,0,,,Not accessible
+6H0F,0,C1,C,1,3,2.985149569,2.2822242,-0.91777587,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,9,9,0,,,Not accessible
+6H0F,11,C12,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,5,9,0.444444444,,,Not accessible
+6H0F,1,C2,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,9,0,,,Not accessible
+6H0F,2,C3,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,9,0.111111111,,,Not accessible
+6H0F,15,N16,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,7,9,0.222222222,,,Not accessible
+6H0G,13,C14,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,6,9,0.333333333,,,Not accessible
+6H0G,17,C18,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,7,9,0.222222222,,,Not accessible
+6H0G,9,N10,N,2,3,1.204496558,2.2005851,-0.9994149,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,9,9,0,,,Not accessible
+6H0G,0,C1,C,1,3,3.030616401,2.0114279,-1.1885722,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,9,9,0,,,Not accessible
+6H0G,11,C12,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,5,9,0.444444444,,,Not accessible
+6H0G,1,C2,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,9,0,,,Not accessible
+6H0G,2,C3,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,9,0.111111111,,,Not accessible
+6H0G,15,N16,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,7,9,0.222222222,,,Not accessible
+6M91,6,C08,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,13,0.307692308,,,Not accessible
+6M91,9,C18,C,1,3,3.10143882,1.9677432,-1.2322569,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,10,13,0.230769231,,,Not accessible
+6M91,11,C20,C,1,3,22.89290795,4.3658686,1.1658685,ok,TRUE,0.38791937,2.7,3.0879195,80,9.852294673,-0.029068748,20.31364309,-0.310448372,0.937660784,-0.15625,ok,,1,12,13,0.076923077,0.029151666,1.050432909,low rigidification
+6M91,12,C21,C,1,3,24.5657725,3.6525633,0.4525633,ok,TRUE,0.38791937,2.2,2.5879195,80,10.98873548,1.287415584,17.56535265,0.194616873,0.320375976,0.927083333,ok,,1,11,13,0.153846154,0.029151666,1.050432909,low rigidification
+6M91,13,C22,C,1,3,9.150195186,3.162182,-0.037817955,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,10,13,0.230769231,,,Not accessible
+6M91,16,C27,C,1,3,0.153935047,2.937569,-0.26243114,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,12,13,0.076923077,,,Not accessible
+6M91,17,C28,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,13,0,,,Not accessible
+6M91,18,C29,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,13,0.076923077,,,Not accessible
+6M91,23,N06,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,13,0.307692308,,,Not accessible
+6M91,24,N15,N,1,3,0.308081388,3.068113,-0.13188696,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,8,13,0.384615385,,,Not accessible
+6M91,27,O24,O,1,2,39.27867029,4.4258194,1.2258193,ok,TRUE,0.38791937,2.2,2.5879195,80,9.569910075,-3.304064657,21.53508169,0.222437281,-0.109750142,0.96875,ok,,1,13,13,0,0.029151666,1.050432909,low rigidification
+6M92,2,C01,C,1,3,10.31025252,3.1312702,-0.06872988,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,10,13,0.230769231,,,Not accessible
+6M92,4,C03,C,1,3,21.25131298,3.911177,0.7111769,ok,TRUE,0.38791937,2.2,2.5879195,80,-4.716359579,39.91847857,-20.55460744,-0.768430711,-0.075894021,-0.635416667,ok,,1,12,13,0.076923077,0.029151666,1.050432909,low rigidification
+6M92,5,C04,C,1,3,25.12769355,3.7471983,0.5471983,ok,TRUE,0.38791937,2.2,2.5879195,80,-6.329216701,39.11171668,-18.30093268,-0.768430711,-0.075894021,-0.635416667,ok,,1,11,13,0.153846154,0.029151666,1.050432909,low rigidification
+6M92,6,C05,C,1,3,12.04077941,3.366932,0.16693187,ok,TRUE,1.0258769,2.2,3.2258768,65,-4.935733907,38.05922979,-15.24694521,-0.489503544,0.522779693,-0.697916667,ok,,1,10,13,0.230769231,0.076023592,1.136908935,low rigidification
+6M92,10,C15,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,13,0.307692308,,,Not accessible
+6M92,15,C26,C,1,3,9.158411823,2.3149571,-0.8850429,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,11,13,0.153846154,,,Not accessible
+6M92,16,C27,C,1,3,9.234200941,3.1812701,-0.018729925,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,12,13,0.076923077,,,Not accessible
+6M92,17,C28,C,1,3,0.647227495,2.610709,-0.5892911,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,13,13,0,,,Not accessible
+6M92,18,C29,C,1,3,3.606833691,2.1820843,-1.0179157,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,12,13,0.076923077,,,Not accessible
+6M92,19,C30,C,1,3,9.26582376,3.0826414,-0.117358685,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,11,13,0.153846154,,,Not accessible
+6M92,23,N07,N,1,3,2.379372503,4.0424833,0.8424833,ok,TRUE,4.941281,3.2,8.141281,24,3.138732605,36.5103479,-16.56988344,-0.838655796,0.515070819,0.177083333,ok,,1,8,13,0.384615385,0.209967203,1.425302437,low rigidification
+6M92,24,N17,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,13,0.307692308,,,Not accessible
+6M92,25,O10,O,1,2,43.99736613,4.4050026,1.2050025,ok,TRUE,0.38791937,2.2,2.5879195,80,-1.281504032,42.60927535,-20.40579932,0.106137472,0.640703777,-0.760416667,ok,,1,13,13,0,0.029151666,1.050432909,low rigidification
+6M93,6,C05,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,13,0.230769231,,,Not accessible
+6M93,7,C06,C,1,3,2.577455774,3.1164427,-0.08355737,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,9,13,0.307692308,,,Not accessible
+6M93,2,C12,C,1,3,17.16958651,4.5969763,1.3969762,ok,TRUE,1.0258769,2.2,3.2258768,65,11.00277962,-0.320664544,15.14456094,-0.643623455,0.620579977,0.447916667,ok,,1,9,13,0.307692308,0.076023592,1.136908935,low rigidification
+6M93,3,C13,C,1,3,28.44320614,4.448958,1.2489579,ok,TRUE,0.38791937,2.2,2.5879195,80,10.19627221,1.025309384,18.26958815,0.243995715,0.968376692,-0.052083333,ok,,1,10,13,0.230769231,0.029151666,1.050432909,low rigidification
+6M93,0,C14,C,1,3,23.17370616,4.7816486,1.5816486,ok,TRUE,0.38791937,2.2,2.5879195,80,9.019503045,0.02096156,20.03660012,-0.374629025,0.27511892,0.885416667,ok,,1,11,13,0.153846154,0.029151666,1.050432909,low rigidification
+6M93,11,C16,C,1,3,13.74511902,3.5270166,0.3270166,ok,TRUE,1.8460191,2.2,4.046019,50,8.175521616,-3.94381778,15.57777818,-0.374629025,0.27511892,0.885416667,ok,,1,9,13,0.307692308,0.077370484,1.139496402,low rigidification
+6M93,17,N03,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,13,0.230769231,,,Not accessible
+6M93,18,N10,N,1,3,2.264626226,3.451457,0.25145698,ok,TRUE,3.8105118,4.2,8.010511,30,9.631629407,-4.597376923,11.72695025,-0.374629025,0.27511892,0.885416667,ok,,1,7,13,0.461538462,1.252285752,8.278122069,low rigidification
+6M93,19,N18,N,1,3,27.66214428,6.752199,3.5521991,ok,TRUE,0.38791937,2.2,2.5879195,80,5.652717518,-0.588753614,19.86752422,-0.305823754,-0.0890271,0.947916667,ok,,1,12,13,0.076923077,0.029151666,1.050432909,low rigidification
+6PAI,6,C1,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,12,0.083333333,,,Not accessible
+6PAI,2,C12,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,12,0.25,,,Not accessible
+6PAI,3,C14,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,12,0.166666667,,,Not accessible
+6PAI,8,C3,C,1,3,0.000253573,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,12,0.25,,,Not accessible
+6PAI,9,C4,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,12,0.333333333,,,Not accessible
+6PAI,16,C7,C,1,3,3.729546119,2.9930723,-0.20692778,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,9,12,0.25,,,Not accessible
+6PAI,17,C8,C,1,3,12.43548451,3.4792986,0.27929854,ok,TRUE,6.7709036,2.7,9.470903,18,26.33439332,30.32650037,66.09765414,0.631231705,-0.473110834,-0.614583333,ok,,1,10,12,0.166666667,0.096967971,1.177817537,low rigidification
+6PAI,18,C9,C,1,3,9.784293053,2.683952,-0.51604795,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,11,12,0.083333333,,,Not accessible
+6PAI,11,N1,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,6,12,0.5,,,Not accessible
+6PAI,21,N3,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,12,0.25,,,Not accessible
+6Q0R,6,C1,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,12,0.083333333,,,Not accessible
+6Q0R,2,C12,C,1,3,4.764911653,3.1494596,-0.050540447,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,9,12,0.25,,,Not accessible
+6Q0R,3,C14,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,12,0.166666667,,,Not accessible
+6Q0R,8,C3,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,12,0.25,,,Not accessible
+6Q0R,9,C4,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,12,0.333333333,,,Not accessible
+6Q0R,16,C7,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,12,0.25,,,Not accessible
+6Q0R,17,C8,C,1,3,9.781125855,3.002679,-0.19732094,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,10,12,0.166666667,,,Not accessible
+6Q0R,18,C9,C,1,3,5.596766137,3.227873,0.02787304,ok,TRUE,6.7709036,5.7,12.470903,18,-47.94994071,-13.94633705,-54.06088718,0.811266457,0.487413133,0.322916667,ok,,1,11,12,0.083333333,4.456084754,1846.429764,modest rigidification
+6Q0R,11,N1,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,6,12,0.5,,,Not accessible
+6Q0R,21,N3,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,12,0.25,,,Not accessible
+6Q0V,0,C1,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,11,0.181818182,,,Not accessible
+6Q0V,11,C10,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,11,0.181818182,,,Not accessible
+6Q0V,5,C6,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,11,0.181818182,,,Not accessible
+6Q0V,6,C7,C,1,3,4.833001266,2.6359744,-0.56402564,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,10,11,0.090909091,,,Not accessible
+6Q0V,13,C9,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,11,0.272727273,,,Not accessible
+6Q0V,8,N,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,6,11,0.454545455,,,Not accessible
+6Q0W,17,N2,N,2,3,27.73648874,3.614928,0.41492796,ok,TRUE,9.379747,9.2,18.579748,13.2,7.731925329,25.60371889,10.51148211,0.702995249,-0.472833076,0.53125,ok,,1,12,12,0,7.796003485,518215.2769,high rigidification
+6Q0W,4,C10,C,1,3,6.379760353,3.5989883,0.39898825,ok,TRUE,10.910784,9.2,20.110785,11.4,0.90323694,26.11485458,10.42596258,0.898156405,-0.354257297,0.260416667,ok,,1,9,12,0.25,9.107854837,4743554.846,high rigidification
+6Q0W,6,C12,C,1,3,7.5623859,2.9565861,-0.24341393,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,9,12,0.25,,,Not accessible
+6Q0W,7,C13,C,1,3,4.75094692,3.305797,0.10579705,ok,TRUE,20.931602,2.2,23.131601,6,-3.121375848,27.27964932,-0.844487259,0.702995249,-0.472833076,0.53125,ok,,1,8,12,0.333333333,,,low rigidification
+6Q0W,10,C4,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,12,0.083333333,,,Not accessible
+6Q0W,11,C5,C,1,3,0.042690787,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.043 <= 0.100,0,11,12,0.083333333,,,Not accessible
+6Q0W,12,C6,C,1,3,1.133312902,2.9464898,-0.25351024,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,10,12,0.166666667,,,Not accessible
+6Q0W,13,C7,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,12,0.25,,,Not accessible
+6Q0W,15,C9,C,1,3,0.217456821,2.558998,-0.64100194,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,8,12,0.333333333,,,Not accessible
+6Q0W,0,N,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,7,12,0.416666667,,,Not accessible
+6Q0W,16,N1,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,12,0.166666667,,,Not accessible
+6SJ7,17,N2,N,2,3,26.75256068,4.0308657,0.8308656,ok,TRUE,4.941281,9.7,14.641281,24,117.0401941,122.1582669,146.9478887,-0.432339998,-0.69631072,-0.572916667,ok,,1,12,12,0,4.977970744,4455.309487,modest rigidification
+6SJ7,4,C10,C,1,3,1.584929642,2.9173262,-0.28267384,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,9,12,0.25,,,Not accessible
+6SJ7,6,C12,C,1,3,8.225497205,3.7647195,0.56471944,ok,TRUE,6.7709036,3.2,9.970903,18,115.6103498,120.9152288,152.8262806,-0.178610901,-0.506146306,-0.84375,ok,,1,9,12,0.25,0.209967203,1.425302437,low rigidification
+6SJ7,7,C13,C,1,3,6.68230374,3.2764225,0.07642245,ok,TRUE,13.007181,3.2,16.207182,9.6,118.4227989,123.0541906,160.2072847,-0.178610901,-0.506146306,-0.84375,ok,,1,8,12,0.333333333,0.209967203,1.425302437,low rigidification
+6SJ7,10,C4,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,12,0.083333333,,,Not accessible
+6SJ7,11,C5,C,1,3,1.204079547,3.0510898,-0.14891028,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,11,12,0.083333333,,,Not accessible
+6SJ7,12,C6,C,1,3,1.237487359,3.3610084,0.16100836,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,10,12,0.166666667,,,No cone found
+6SJ7,13,C7,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,12,0.25,,,Not accessible
+6SJ7,15,C9,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,12,0.333333333,,,Not accessible
+6SJ7,0,N,N,1,3,0.515796762,3.301985,0.10198498,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,7,12,0.416666667,,,No cone found
+6SJ7,16,N1,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,12,0.166666667,,,Not accessible
+6TD3,6,C10,C,3,4,0.158120443,4.02418,0.8241799,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,2,15,16,0.0625,,,No cone found
+6TD3,15,C11,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,16,0.0625,,,Not accessible
+6TD3,8,C14,C,3,4,5.267446544,4.2163296,1.0163295,ok,TRUE,20.931602,8.7,29.631601,6,-74.66370694,18.57123451,-19.06452953,0.762627714,0.256631852,0.59375,ok,,2,16,16,0,,,high rigidification
+6TD3,11,C13,C,2,4,4.875335882,4.2113986,1.0113986,ok,TRUE,8.210512,6.2,14.410512,15,-63.07049397,23.85480104,-10.19307808,0.762627714,0.256631852,0.59375,ok,,1,15,16,0.0625,6.496853057,57839.74097,high rigidification
+6TD3,10,C15,C,2,4,17.25071138,3.7419782,0.5419781,ok,TRUE,6.7709036,6.7,13.470903,18,-64.40752631,26.12686217,-5.999009776,0.903917308,-0.023093866,0.427083333,ok,,2,15,16,0.0625,6.095021946,29355.00043,high rigidification
+6TD3,19,CA',C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,16,0.5,,,Not accessible
+6TD3,7,C12,C,1,4,0.167077451,3.6312878,0.43128777,ok,TRUE,16.060392,9.2,25.260391,7.8,-74.59718408,26.42478078,-11.98976828,0.903917308,-0.023093866,0.427083333,ok,,1,14,16,0.125,,,high rigidification
+6TD3,25,C2',C,1,3,0.013333778,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.013 <= 0.100,0,10,16,0.375,,,Not accessible
+6TD3,31,C2B,C,1,3,1.049822293,3.4185724,0.21857238,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,14,16,0.125,,,No cone found
+6TD3,24,C3',C,1,3,1.342681818,2.7459853,-0.45401478,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,11,16,0.3125,,,Not accessible
+6TD3,30,C3B,C,1,3,0.123085774,2.9646866,-0.23531342,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,15,16,0.0625,,,Not accessible
+6TD3,29,C4B,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,16,0,,,Not accessible
+6TD3,22,C5',C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,16,0.3125,,,Not accessible
+6TD3,28,C5B,C,1,3,2.58845042,2.7742991,-0.4257009,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,15,16,0.0625,,,Not accessible
+6TD3,21,C6',C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,16,0.375,,,Not accessible
+6TD3,4,C8,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,16,0.1875,,,Not accessible
+6TD3,5,C9,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,16,0.125,,,Not accessible
+6TD3,12,N2,N,1,3,0.06956846,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.070 <= 0.100,0,13,16,0.1875,,,Not accessible
+6TD3,18,N6,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,16,0.4375,,,Not accessible
+6TD3,9,O1,O,1,2,5.704213872,2.363658,-0.8363421,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,16,16,0,,,Not accessible
+6UD7,17,N2,N,2,3,5.307771812,3.5549667,0.35496664,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,12,12,0,,,No cone found
+6UD7,4,C10,C,1,3,3.446887969,3.2738626,0.07386255,ok,TRUE,6.7709036,2.2,8.970903,18,1.797888526,-11.40022939,60.24458815,-0.489503544,0.522779693,-0.697916667,ok,,1,9,12,0.25,0.078229141,1.141149011,low rigidification
+6UD7,6,C12,C,1,3,0.584931618,3.316122,0.11612201,ok,TRUE,8.210512,9.7,17.910511,15,7.79470471,-16.09705604,55.51049999,-0.747995935,0.610479517,-0.260416667,ok,,1,9,12,0.25,7.027003933,141523.848,high rigidification
+6UD7,7,C13,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,12,0.333333333,,,Not accessible
+6UD7,10,C4,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,12,0.083333333,,,Not accessible
+6UD7,11,C5,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,12,0.083333333,,,Not accessible
+6UD7,12,C6,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,12,0.166666667,,,Not accessible
+6UD7,13,C7,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,12,0.25,,,Not accessible
+6UD7,15,C9,C,1,3,2.148625985,3.0497854,-0.15021467,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,8,12,0.333333333,,,Not accessible
+6UD7,0,N,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,7,12,0.416666667,,,Not accessible
+6UD7,16,N1,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,12,0.166666667,,,Not accessible
+6UE5,16,C7,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,13,0.076923077,,,Not accessible
+6UE5,11,C17,C,2,4,4.963403998,3.1401863,-0.059813738,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,12,13,0.076923077,,,Not accessible
+6UE5,22,N4,N,2,3,12.13360886,3.3928282,0.19282818,ok,TRUE,13.007181,2.2,15.207181,9.6,11.79374357,-7.060317932,59.47747112,-0.924699981,0.109585302,-0.364583333,ok,,1,13,13,0,0.078229141,1.141149011,low rigidification
+6UE5,0,C1,C,1,3,0.018413962,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.018 <= 0.100,0,10,13,0.230769231,,,Not accessible
+6UE5,12,C10,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,13,0.153846154,,,Not accessible
+6UE5,6,C12,C,1,3,0.220709992,2.7018979,-0.4981022,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,9,13,0.307692308,,,Not accessible
+6UE5,7,C13,C,1,3,8.355926775,3.3091755,0.10917544,ok,TRUE,6.7709036,9.7,16.470903,18,6.763843027,-15.22923792,55.73791928,-0.747995935,0.610479517,-0.260416667,ok,,1,10,13,0.230769231,6.354482076,45484.94628,high rigidification
+6UE5,9,C15,C,1,3,5.002808181,3.1264179,-0.07358217,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,10,13,0.230769231,,,Not accessible
+6UE5,10,C16,C,1,3,5.42676598,3.027972,-0.17202806,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,9,13,0.307692308,,,Not accessible
+6UE5,1,C2,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,13,0.307692308,,,Not accessible
+6UE5,20,N2,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,13,0.230769231,,,Not accessible
+6UE5,21,N3,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,7,13,0.461538462,,,Not accessible
+6UML,13,C14,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,6,9,0.333333333,,,Not accessible
+6UML,17,C18,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,7,9,0.222222222,,,Not accessible
+6UML,9,N10,N,2,3,13.64530432,2.9397671,-0.26023293,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,9,9,0,,,Not accessible
+6UML,0,C1,C,1,3,10.88650936,3.7106788,0.51067877,ok,TRUE,5.731196,4.2,9.931196,21,6.559871558,32.91449213,-95.60877315,0.142557192,0.020056758,-0.989583333,ok,,1,9,9,0,3.238359819,236.4472244,modest rigidification
+6UML,11,C12,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,5,9,0.444444444,,,Not accessible
+6UML,1,C2,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,9,0,,,Not accessible
+6UML,2,C3,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,9,0.111111111,,,Not accessible
+6UML,15,N16,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,7,9,0.222222222,,,Not accessible
+6XK9,13,C10,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,18,0.166666667,,,Not accessible
+6XK9,14,C11,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,18,0.111111111,,,Not accessible
+6XK9,17,C14,C,2,4,2.626053007,3.1210063,-0.0789938,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,10,18,0.444444444,,,Not accessible
+6XK9,10,C7,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,18,0.333333333,,,Not accessible
+6XK9,0,C1,C,1,3,0.068791994,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.069 <= 0.100,0,10,18,0.444444444,,,Not accessible
+6XK9,22,C18,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,18,0.166666667,,,Not accessible
+6XK9,23,C19,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,18,0.111111111,,,Not accessible
+6XK9,25,C21,C,1,3,9.900561893,3.9905446,0.7905445,ok,TRUE,20.931602,9.7,30.631601,6,-5.846124816,7.605725065,11.08890326,0.903917308,-0.023093866,0.427083333,ok,,1,16,18,0.111111111,,,high rigidification
+6XK9,26,C22,C,1,3,9.401600355,3.424145,0.22414494,ok,TRUE,20.931602,9.7,30.631601,6,-5.320952996,14.8873015,17.41519271,0.898156405,-0.354257297,0.260416667,ok,,1,15,18,0.166666667,,,high rigidification
+6XK9,2,C3,C,1,3,0.300976346,2.9673214,-0.23267865,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,10,18,0.444444444,,,Not accessible
+6XK9,3,C4,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,18,0.388888889,,,Not accessible
+6XK9,12,C9,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,18,0.222222222,,,Not accessible
+6XK9,7,N2,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,18,0.111111111,,,Not accessible
+6XK9,8,N3,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,18,0.388888889,,,Not accessible
+7LPS,12,C18,C,3,4,22.0147018,4.804972,1.6049721,ok,TRUE,2.2,2.2,4.4,45,59.79650439,21.24822329,51.56630384,0.499550825,0.054264472,0.864583333,ok,,3,20,20,0,0.077894386,1.140504442,low rigidification
+7LPS,5,C11,C,2,4,9.966024686,3.8280427,0.6280427,ok,TRUE,1.4015546,2.7,4.1015544,57.5,61.20271366,10.3909797,53.36706508,-0.643623455,0.620579977,0.447916667,ok,,1,12,20,0.4,0.094635498,1.173189862,low rigidification
+7LPS,6,C12,C,2,4,17.13227182,3.506272,0.30627203,ok,TRUE,1.4015546,2.2,3.6015546,57.5,60.73253614,12.5921349,54.55613853,-0.195819462,0.810468217,0.552083333,ok,,1,13,20,0.35,0.077361813,1.139479726,low rigidification
+7LPS,21,C4,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,18,20,0.1,,,Not accessible
+7LPS,22,C5,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,17,20,0.15,,,Not accessible
+7LPS,3,C1,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,20,0.2,,,Not accessible
+7LPS,9,C15,C,1,3,28.35460929,5.367813,2.167813,ok,TRUE,2.7167737,2.2,4.916774,39,59.62264342,16.16337964,54.34174578,0.548032687,0.678209653,0.489583333,ok,,1,17,20,0.15,0.078229141,1.141149011,low rigidification
+7LPS,10,C16,C,1,3,26.8673014,5.1114893,1.9114892,ok,TRUE,2.2,2.2,4.4,45,59.82851313,20.13721728,53.42136617,0.762627714,0.256631852,0.59375,ok,,1,18,20,0.1,0.077894386,1.140504442,low rigidification
+7LPS,15,C20,C,1,3,4.199363136,3.0384853,-0.16151476,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,17,20,0.15,,,Not accessible
+7LPS,16,C21,C,1,3,2.305220617,2.9157062,-0.2842939,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,12,20,0.4,,,Not accessible
+7LPS,17,C22,C,1,3,4.557620691,3.2389867,0.038986683,ok,TRUE,3.8105118,3.7,7.510512,30,63.69116701,11.98789511,50.83947613,0.244137001,0.713955924,0.65625,ok,,1,11,20,0.45,0.814755069,3.955665961,low rigidification
+7LPS,18,C23,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,20,0.4,,,Not accessible
+7LPS,19,C24,C,1,3,2.224585185,3.735302,0.5353019,ok,TRUE,4.941281,4.2,9.141281,24,63.62509902,10.19379708,46.85211435,-0.721246473,0.31951659,0.614583333,ok,,1,14,20,0.3,3.010586755,160.9812911,modest rigidification
+7LPS,26,C9,C,1,3,0.880471862,4.085216,0.885216,ok,TRUE,3.0280402,4.2,7.22804,36,62.70916659,10.86666468,48.61929597,-0.721246473,0.31951659,0.614583333,ok,,1,10,20,0.5,0.516872944,2.392602199,low rigidification
+7LPS,27,N1,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,18,20,0.1,,,Not accessible
+7LPS,28,N2,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,20,0.4,,,Not accessible
+7LPS,29,N3,N,1,3,7.324443834,4.5752864,1.3752863,ok,TRUE,1.4015546,2.2,3.6015546,57.5,61.46494881,14.55946388,54.2319237,-0.195819462,0.810468217,0.552083333,ok,,1,15,20,0.25,0.077361813,1.139479726,low rigidification
+7U8F,4,C13,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,18,0.166666667,,,Not accessible
+7U8F,5,C14,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,18,0.111111111,,,Not accessible
+7U8F,8,C20,C,2,4,1.242839281,2.7719288,-0.42807126,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,11,18,0.388888889,,,Not accessible
+7U8F,9,C21,C,2,4,19.74807586,3.703771,0.50377107,ok,TRUE,1.0258769,2.2,3.2258768,65,-85.54080249,-97.54964027,78.02262329,-0.622823043,0.041712045,0.78125,ok,,1,12,18,0.333333333,0.076023592,1.136908935,low rigidification
+7U8F,10,C23,C,2,4,5.483101586,3.3282487,0.12824869,ok,TRUE,1.8460191,2.2,4.046019,50,-84.5554382,-99.65842024,76.94917983,-0.622823043,0.041712045,0.78125,ok,,1,12,18,0.333333333,0.077370484,1.139496402,low rigidification
+7U8F,11,C24,C,2,4,2.412207505,3.010862,-0.18913794,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,11,18,0.388888889,,,Not accessible
+7U8F,12,C25,C,2,4,23.83320964,3.6401274,0.44012737,ok,TRUE,0.69365734,2.2,2.8936574,72.5,-88.48421547,-97.6346554,76.78671778,-0.622823043,0.041712045,0.78125,ok,,2,14,18,0.222222222,0.069509918,1.124478416,low rigidification
+7U8F,23,C7,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,18,0.333333333,,,Not accessible
+7U8F,0,C1,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,18,0.444444444,,,Not accessible
+7U8F,18,C10,C,1,4,0.290027329,2.194659,-1.005341,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,10,18,0.444444444,,,Not accessible
+7U8F,3,C11,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,18,0.222222222,,,Not accessible
+7U8F,14,C27,C,1,3,9.783046071,1.8209468,-1.3790532,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,16,18,0.111111111,,,Not accessible
+7U8F,15,C28,C,1,3,23.502228,3.6410108,0.4410107,ok,TRUE,1.4015546,2.2,3.6015546,57.5,-88.49792043,-97.38715457,72.91591612,-0.768430711,-0.075894021,-0.635416667,ok,,1,17,18,0.055555556,0.077361813,1.139479726,low rigidification
+7U8F,16,C29,C,1,3,35.15004215,5.5057807,2.3057806,ok,TRUE,0.69365734,2.2,2.8936574,72.5,-89.6137591,-100.3289931,71.72072186,-0.924699981,0.109585302,-0.364583333,ok,,1,18,18,0,0.069509918,1.124478416,low rigidification
+7U8F,2,C3,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,18,0.444444444,,,Not accessible
+7U8F,17,C30,C,1,3,23.08693565,4.2271376,1.0271375,ok,TRUE,1.8460191,2.2,4.046019,50,-88.59678689,-102.8351947,72.41237137,-0.721246473,0.31951659,0.614583333,ok,,1,17,18,0.055555556,0.077370484,1.139496402,low rigidification
+7U8F,19,C31,C,1,3,14.03982233,2.6399045,-0.56009555,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,16,18,0.111111111,,,Not accessible
+7U8F,22,C6,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,18,0.388888889,,,Not accessible
+7U8F,25,N16,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,18,0.111111111,,,Not accessible
+8BU1,12,C13,C,3,4,17.00153777,4.773406,1.573406,ok,TRUE,6.7709036,7.2,13.970903,18,-62.85700825,23.69613257,-8.580604538,0.762627714,0.256631852,0.59375,ok,,2,14,15,0.066666667,6.1998733,35037.94828,high rigidification
+8BU1,19,C20,C,3,4,,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,15,0,,,Not accessible
+8BU1,13,C12,C,2,4,8.446077441,4.0271816,0.8271816,ok,TRUE,9.379747,7.7,17.079748,13.2,-66.40360025,25.94939392,-6.944938485,0.903917308,-0.023093866,0.427083333,ok,,1,13,15,0.133333333,7.641100752,398993.4083,high rigidification
+8BU1,11,C14,C,2,4,14.7476456,3.1426907,-0.05730939,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,13,15,0.133333333,,,Not accessible
+8BU1,6,C8,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,15,0.4,,,Not accessible
+8BU1,14,C11,C,1,4,0.519547763,3.6931,0.49309993,ok,TRUE,20.931602,9.7,30.631601,6,-82.07447649,28.52083509,-3.247556094,0.987286827,-0.158607108,-0.010416667,ok,,1,12,15,0.2,,,high rigidification
+8BU1,8,C17,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,15,0.266666667,,,Not accessible
+8BU1,18,C19,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,15,0.133333333,,,Not accessible
+8BU1,20,C21,C,1,3,4.755502229,2.9285178,-0.27148223,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,13,15,0.133333333,,,Not accessible
+8BU1,1,C3,C,1,3,1.710232314,2.449452,-0.7505481,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,13,15,0.133333333,,,Not accessible
+8BU1,2,C4,C,1,3,0.713008469,2.9643981,-0.2356019,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,13,15,0.133333333,,,Not accessible
+8BU1,22,N1,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,15,0.266666667,,,Not accessible
+8BU1,24,N2,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,15,0.466666667,,,Not accessible
+8BU1,26,N4,N,1,3,4.421597076,3.9682624,0.7682624,ok,TRUE,20.931602,8.7,29.631601,6,-74.89644951,18.06738164,-18.0436928,0.762627714,0.256631852,0.59375,ok,,1,11,15,0.266666667,,,high rigidification
+8BU1,31,O1,O,1,2,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,15,0.066666667,,,Not accessible
+8BU2,17,C15,C,3,4,3.697838451,3.3731074,0.17310739,ok,TRUE,20.931602,9.7,30.631601,6,-71.09624885,23.93386809,-27.07501349,0.499550825,0.054264472,0.864583333,ok,,2,13,14,0.071428571,,,high rigidification
+8BU2,18,C16,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,14,0.071428571,,,Not accessible
+8BU2,6,C1,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,14,0.428571429,,,Not accessible
+8BU2,19,C17,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,14,0.142857143,,,Not accessible
+8BU2,20,C18,C,2,4,9.496002556,3.4433548,0.2433548,ok,TRUE,16.060392,6.2,22.260391,7.8,-74.94851572,20.45965539,-3.867752944,0.969781751,0.187374738,0.15625,ok,,1,13,14,0.071428571,,,high rigidification
+8BU2,21,C19,C,2,4,20.13524032,4.741296,1.5412958,ok,TRUE,8.210512,7.2,15.410512,15,-63.81128558,22.76674454,-9.849682314,0.762627714,0.256631852,0.59375,ok,,2,13,14,0.071428571,6.793983438,95504.62864,high rigidification
+8BU2,22,C20,C,2,4,2.433396649,3.8187912,0.6187911,ok,TRUE,20.931602,9.2,30.131601,6,-78.63001877,26.30967264,-15.36227957,0.903917308,-0.023093866,0.427083333,ok,,2,12,14,0.142857143,,,high rigidification
+8BU2,0,C10,C,1,3,0.499563759,2.7730596,-0.42694044,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,12,14,0.142857143,,,Not accessible
+8BU2,15,C13,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,14,0.142857143,,,Not accessible
+8BU2,16,C14,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,14,0.142857143,,,Not accessible
+8BU2,11,C6,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,14,0.214285714,,,Not accessible
+8BU2,5,N1,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,7,14,0.5,,,Not accessible
+8BU2,27,N7,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,14,0.285714286,,,Not accessible
+8BU3,21,C19,C,3,4,1.417392932,3.7203784,0.52037835,ok,TRUE,20.931602,9.7,30.631601,6,20.53201941,73.27979674,-11.80543349,-0.529646084,-0.415320983,-0.739583333,ok,,1,15,16,0.0625,,,high rigidification
+8BU3,22,C20,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,16,0.0625,,,Not accessible
+8BU3,14,C12,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,16,0.5,,,Not accessible
+8BU3,23,C21,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,16,0.125,,,Not accessible
+8BU3,24,C22,C,2,4,17.68588729,3.9018505,0.7018504,ok,TRUE,8.210512,9.7,17.910511,15,14.12293078,69.19046881,-32.37825176,-0.66501498,-0.683008592,-0.302083333,ok,,2,15,16,0.0625,7.027003933,141523.848,high rigidification
+8BU3,25,C23,C,2,4,15.49488957,4.3774576,1.1774576,ok,TRUE,8.210512,9.7,17.910511,15,11.29877581,65.42383642,-25.30855882,-0.529646084,-0.415320983,-0.739583333,ok,,1,15,16,0.0625,7.027003933,141523.848,high rigidification
+8BU3,26,C24,C,2,4,2.817963536,3.651039,0.45103884,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,14,16,0.125,,,No cone found
+8BU3,6,C1,C,1,3,1.714771551,2.5130875,-0.68691254,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,15,16,0.0625,,,Not accessible
+8BU3,0,C10,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,16,0.375,,,Not accessible
+8BU3,13,C11,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,16,0.3125,,,Not accessible
+8BU3,19,C17,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,16,0.1875,,,Not accessible
+8BU3,20,C18,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,16,0.125,,,Not accessible
+8BU3,8,C3,C,1,3,0.566670113,3.1117718,-0.088228226,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,14,16,0.125,,,Not accessible
+8BU3,9,C4,C,1,3,0.540689652,2.7777407,-0.42225933,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,15,16,0.0625,,,Not accessible
+8BU3,10,C5,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,16,0,,,Not accessible
+8BU3,4,C7,C,1,3,0.523815194,2.8499506,-0.3500495,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,11,16,0.3125,,,Not accessible
+8BU3,2,C8,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,16,0.375,,,Not accessible
+8BU3,3,N2,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,16,0.4375,,,Not accessible
+8BU4,12,C13,C,3,4,18.98415269,4.446288,1.2462881,ok,TRUE,9.379747,7.2,16.579748,13.2,-67.08170498,25.89772303,-7.48831795,0.903917308,-0.023093866,0.427083333,ok,,2,14,15,0.066666667,7.382217261,257752.4515,high rigidification
+8BU4,19,C20,C,3,4,6.042090311,3.5161397,0.3161397,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,2,15,15,0,,,No cone found
+8BU4,13,C12,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,15,0.133333333,,,Not accessible
+8BU4,11,C14,C,2,4,27.16160065,4.539649,1.339649,ok,TRUE,5.731196,8.2,13.931196,21,-64.12523884,24.12627588,-1.926656748,0.969781751,0.187374738,0.15625,ok,,2,13,15,0.133333333,5.648423691,13814.12236,high rigidification
+8BU4,6,C8,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,15,0.4,,,Not accessible
+8BU4,14,C11,C,1,4,0.467449291,4.1277895,0.92778945,ok,TRUE,10.910784,8.7,19.610785,11.4,-71.72997151,22.48521607,-3.662537616,0.969781751,0.187374738,0.15625,ok,,1,12,15,0.2,9.107854837,4743554.846,high rigidification
+8BU4,8,C17,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,15,0.266666667,,,Not accessible
+8BU4,18,C19,C,1,3,3.02585134,2.6655378,-0.5344622,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,13,15,0.133333333,,,Not accessible
+8BU4,20,C21,C,1,3,1.398382751,2.8039796,-0.3960204,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,13,15,0.133333333,,,Not accessible
+8BU4,1,C3,C,1,3,0.968363292,2.4966512,-0.7033489,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,13,15,0.133333333,,,Not accessible
+8BU4,2,C4,C,1,3,0.459747805,2.8229566,-0.3770435,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,13,15,0.133333333,,,Not accessible
+8BU4,22,N1,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,15,0.266666667,,,Not accessible
+8BU4,24,N2,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,15,0.466666667,,,Not accessible
+8BU4,26,N4,N,1,3,3.072081473,3.4972575,0.29725742,ok,TRUE,10.910784,8.2,19.110785,11.4,-67.36319717,20.57167301,-11.19640579,0.762627714,0.256631852,0.59375,ok,,1,11,15,0.266666667,9.077445522,4506234.036,high rigidification
+8BU4,31,O1,O,1,2,2.76648135,2.0013843,-1.1986158,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,14,15,0.066666667,,,Not accessible
+8BU5,5,C10,C,3,4,0.624548856,3.7112322,0.51123214,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,15,15,0,,,No cone found
+8BU5,6,C1,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,15,0.4,,,Not accessible
+8BU5,11,C11,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,15,0.2,,,Not accessible
+8BU5,12,C12,C,2,4,1.398664725,2.4827838,-0.71721625,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,13,15,0.133333333,,,Not accessible
+8BU5,13,C13,C,2,4,1.678300036,3.375401,0.17540097,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,13,15,0.133333333,,,No cone found
+8BU5,14,C14,C,2,4,1.725147521,2.9842296,-0.21577048,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,12,15,0.2,,,Not accessible
+8BU5,18,C18,C,1,3,6.486225169,3.3586135,0.15861344,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,13,15,0.133333333,,,No cone found
+8BU5,21,C21,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,15,0.133333333,,,Not accessible
+8BU5,2,C6,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,15,0.266666667,,,Not accessible
+8BU5,4,C8,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,15,0.133333333,,,Not accessible
+8BU5,9,C9,C,1,3,2.414860058,3.8291414,0.62914133,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,13,15,0.133333333,,,No cone found
+8BU5,22,N1,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,15,0.466666667,,,Not accessible
+8BU5,31,N9,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,15,0.266666667,,,Not accessible
+8BU6,15,C1,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,14,0,,,Not accessible
+8BU6,9,C16,C,2,4,3.941402176,3.5527768,0.35277677,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,11,14,0.214285714,,,No cone found
+8BU6,10,C17,C,2,4,2.427434561,2.849871,-0.35012913,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,12,14,0.142857143,,,Not accessible
+8BU6,11,C18,C,2,4,3.850213643,3.2017674,0.001767397,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,12,14,0.142857143,,,No cone found
+8BU6,12,C19,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,14,0.214285714,,,Not accessible
+8BU6,6,C7,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,14,0.357142857,,,Not accessible
+8BU6,14,C11,C,1,3,1.768677342,2.197222,-1.002778,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,13,14,0.071428571,,,Not accessible
+8BU6,7,C12,C,1,3,0.06542505,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.065 <= 0.100,0,14,14,0,,,Not accessible
+8BU6,17,C13,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,14,0,,,Not accessible
+8BU6,8,C14,C,1,3,2.580917514,3.297298,0.09729791,ok,TRUE,9.379747,9.7,19.079748,13.2,-58.33622076,25.30956416,2.066291464,-0.953914234,-0.225558478,-0.197916667,ok,,1,13,14,0.071428571,7.796003485,518215.2769,high rigidification
+8BU6,1,C2,C,1,3,4.817700307,3.318173,0.118172884,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,12,14,0.142857143,,,No cone found
+8BU6,19,C21,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,14,0.142857143,,,Not accessible
+8BU6,20,C4,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,14,0.285714286,,,Not accessible
+8BU6,26,N5,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,14,0.428571429,,,Not accessible
+8BU6,28,N7,N,1,3,1.603335086,3.037663,-0.16233706,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,11,14,0.214285714,,,Not accessible
+8BU7,19,C16,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,16,0.0625,,,Not accessible
+8BU7,20,C17,C,3,4,0.856077302,3.532157,0.3321569,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,15,16,0.0625,,,No cone found
+8BU7,0,C1,C,2,4,0.452765427,2.8480282,-0.35197186,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,15,16,0.0625,,,Not accessible
+8BU7,1,C2,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,16,0.125,,,Not accessible
+8BU7,9,C9,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,16,0.5,,,Not accessible
+8BU7,18,C15,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,16,0.125,,,Not accessible
+8BU7,23,C20,C,1,3,3.305618288,2.8167272,-0.3832729,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,15,16,0.0625,,,Not accessible
+8BU7,24,C21,C,1,3,20.4446256,4.201432,1.0014322,ok,TRUE,5.731196,5.2,10.931196,21,51.04341537,39.61384847,29.66731143,-0.396219574,-0.717479298,0.572916667,ok,,1,16,16,0,3.55013781,400.1926187,modest rigidification
+8BU7,27,C22,C,1,3,13.46537922,3.5536363,0.35363626,ok,TRUE,6.7709036,7.7,14.470903,18,53.01584899,42.97436664,31.80292499,-0.27090763,-0.913977415,0.302083333,ok,,1,15,16,0.0625,6.293458139,41033.33636,high rigidification
+8BU7,3,C4,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,16,0.3125,,,Not accessible
+8BU7,4,C5,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,16,0.375,,,Not accessible
+8BU7,7,C7,C,1,3,5.24664579,3.872729,0.672729,ok,TRUE,20.931602,9.7,30.631601,6,57.01364475,60.52990473,28.81863666,-0.27090763,-0.913977415,0.302083333,ok,,1,10,16,0.375,,,high rigidification
+8BU7,8,C8,C,1,3,0.294425223,2.7927032,-0.4072969,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,11,16,0.3125,,,Not accessible
+8BU7,17,N1,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,16,0.375,,,Not accessible
+8BU7,6,O1,O,1,2,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,16,0,,,Not accessible
+8BU9,4,CAI,C,3,4,8.295770221,4.6845803,1.4845803,ok,TRUE,8.210512,9.7,17.910511,15,-64.46799017,19.65715039,-4.049971945,0.811266457,0.487413133,0.322916667,ok,,2,12,12,0,7.027003933,141523.848,high rigidification
+8BU9,11,CAY,C,3,4,1.93787528,3.8224254,0.6224253,ok,TRUE,16.060392,9.7,25.760391,7.8,-68.27263602,23.77032932,-22.89985966,0.499550825,0.054264472,0.864583333,ok,,2,11,12,0.083333333,,,high rigidification
+8BU9,12,CBA,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,12,0.083333333,,,Not accessible
+8BU9,19,CAD,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,12,0.333333333,,,Not accessible
+8BU9,3,CAK,C,2,4,15.1095527,4.8917923,1.6917922,ok,TRUE,6.7709036,9.7,16.470903,18,-62.38905778,23.02084222,-6.803176959,0.762627714,0.256631852,0.59375,ok,,1,11,12,0.083333333,6.354482076,45484.94628,high rigidification
+8BU9,1,CAQ,C,2,4,17.54823241,4.378261,1.178261,ok,TRUE,10.910784,5.7,16.610785,11.4,-61.63229442,24.21801426,-14.45507124,0.499550825,0.054264472,0.864583333,ok,,1,11,12,0.083333333,6.64493798,74263.14563,high rigidification
+8BU9,25,CAB,C,1,3,0.495370382,2.6013544,-0.5986457,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,10,12,0.166666667,,,Not accessible
+8BU9,24,CAC,C,1,3,10.99283744,3.4890246,0.2890246,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,11,12,0.083333333,,,No cone found
+8BU9,23,CAF,C,1,3,11.12228171,3.29419,0.09418988,ok,TRUE,10.910784,5.2,16.110785,11.4,-71.03120539,22.64431653,7.597420712,0.802793551,0.225225458,-0.552083333,ok,,1,12,12,0,6.373611621,46977.48258,high rigidification
+8BU9,21,CAG,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,12,0.166666667,,,Not accessible
+8BU9,22,CAH,C,1,3,4.548881363,2.9856758,-0.21432424,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,11,12,0.083333333,,,Not accessible
+8BU9,2,CAR,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,12,0.166666667,,,Not accessible
+8BU9,13,CAX,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,12,0.25,,,Not accessible
+8BU9,10,CAZ,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,12,0.166666667,,,Not accessible
+8BU9,18,NAJ,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,7,12,0.416666667,,,Not accessible
+8BU9,5,NAS,N,1,3,6.01596891,4.5004554,1.3004553,ok,TRUE,13.007181,9.2,22.207182,9.6,-70.52951629,26.17600043,-10.23930971,0.903917308,-0.023093866,0.427083333,ok,,1,9,12,0.25,45.76802885,3.53E+33,high rigidification
+8BU9,0,OAP,O,1,2,2.261555432,3.3482642,0.14826417,ok,TRUE,20.931602,9.2,30.131601,6,-67.99277627,22.75288471,-26.42808513,0.499550825,0.054264472,0.864583333,ok,,1,12,12,0,,,high rigidification
+8BUA,15,C18,C,3,4,0.419293809,3.6752837,0.47528362,ok,TRUE,16.060392,9.7,25.760391,7.8,-78.85376145,19.60932316,-4.519573081,0.969781751,0.187374738,0.15625,ok,,1,8,12,0.333333333,,,high rigidification
+8BUA,9,C10,C,2,4,6.702415206,3.2994034,0.09940338,ok,TRUE,13.007181,9.7,22.707182,9.6,-74.64666757,21.67013205,-3.463093347,0.969781751,0.187374738,0.15625,ok,,1,9,12,0.25,45.76802885,3.53E+33,high rigidification
+8BUA,0,C1,C,1,3,1.19408671,2.5694299,-0.6305702,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,12,12,0,,,Not accessible
+8BUA,8,C14,C,1,3,11.46927112,3.680733,0.48073292,ok,TRUE,16.060392,9.7,25.760391,7.8,-74.27010202,20.75549659,10.5919717,0.802793551,0.225225458,-0.552083333,ok,,1,11,12,0.083333333,,,high rigidification
+8BUA,12,C15,C,1,3,1.050001214,3.4558392,0.2558391,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,12,12,0,,,No cone found
+8BUA,13,C16,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,12,0,,,Not accessible
+8BUA,14,C17,C,1,3,3.732434021,2.8132632,-0.38673687,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,11,12,0.083333333,,,Not accessible
+8BUA,1,C2,C,1,3,10.83770969,3.3038292,0.103829145,ok,TRUE,20.931602,2.2,23.131601,6,-74.86499164,29.65238458,-22.47082483,0.695318956,-0.17159218,0.697916667,ok,,1,11,12,0.083333333,,,low rigidification
+8BUA,4,C5,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,12,0.083333333,,,Not accessible
+8BUA,5,C6,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,12,0,,,Not accessible
+8BUA,6,C9,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,7,12,0.416666667,,,Not accessible
+8BUA,19,N2,N,1,3,6.59300459,3.7142644,0.51426435,ok,TRUE,20.931602,9.7,30.631601,6,-80.71839103,25.57439602,-14.29039159,0.903917308,-0.023093866,0.427083333,ok,,1,9,12,0.25,,,high rigidification
+8BUA,20,N3,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,7,12,0.416666667,,,Not accessible
+8BUC,11,C7,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,7,13,0.461538462,,,Not accessible
+8BUC,2,C11,C,1,3,5.619932689,3.0615888,-0.13841128,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,12,13,0.076923077,,,Not accessible
+8BUC,3,C12,C,1,3,0.704975662,2.9262314,-0.27376866,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,13,13,0,,,Not accessible
+8BUC,4,C13,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,13,0,,,Not accessible
+8BUC,5,C14,C,1,3,3.633037435,2.4279764,-0.7720237,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,12,13,0.076923077,,,Not accessible
+8BUC,7,C3,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,13,0.153846154,,,Not accessible
+8BUC,9,C5,C,1,3,13.00383392,3.3589966,0.15899658,ok,TRUE,16.060392,2.2,18.260391,7.8,-68.21477433,22.67264101,-22.15594575,0.499550825,0.054264472,0.864583333,ok,,1,11,13,0.153846154,,,low rigidification
+8BUC,10,C6,C,1,3,5.227928293,2.8335834,-0.3664167,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,10,13,0.230769231,,,Not accessible
+8BUC,14,N1,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,13,0.384615385,,,Not accessible
+8BUC,17,N4,N,1,3,2.167589374,2.6646328,-0.53536725,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,10,13,0.230769231,,,Not accessible
+8BUD,8,C10,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,7,14,0.5,,,Not accessible
+8BUD,15,C9,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,14,0.428571429,,,Not accessible
+8BUD,10,C13,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,14,0.142857143,,,Not accessible
+8BUD,12,C15,C,1,3,13.7010663,4.2659583,1.0659583,ok,TRUE,16.060392,9.7,25.760391,7.8,-72.70224813,20.70533622,-17.55227102,0.762627714,0.256631852,0.59375,ok,,1,12,14,0.142857143,,,high rigidification
+8BUD,13,C16,C,1,3,7.944548995,3.7879646,0.58796453,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,11,14,0.214285714,,,No cone found
+8BUD,7,C3,C,1,3,8.556750271,3.7695668,0.5695667,ok,TRUE,20.931602,4.2,25.131601,6,-77.71226622,20.31403418,13.08476122,0.802793551,0.225225458,-0.552083333,ok,,1,13,14,0.071428571,,,high rigidification
+8BUD,0,C4,C,1,3,0.544732289,2.8358607,-0.36413932,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,14,14,0,,,Not accessible
+8BUD,1,C5,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,14,0.071428571,,,Not accessible
+8BUD,2,C6,C,1,3,2.986727202,3.0928864,-0.1071136,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,12,14,0.142857143,,,Not accessible
+8BUD,3,C8,C,1,3,0.135004603,2.596677,-0.603323,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,10,14,0.285714286,,,Not accessible
+8BUD,18,N3,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,14,0.357142857,,,Not accessible
+8BUE,11,C13,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,13,0,,,Not accessible
+8BUE,12,C14,C,3,4,2.809985056,2.9096909,-0.2903092,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,13,13,0,,,Not accessible
+8BUE,5,C4,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,13,0.384615385,,,Not accessible
+8BUE,7,C6,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,13,0.384615385,,,Not accessible
+8BUE,2,C1,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,7,13,0.461538462,,,Not accessible
+8BUE,8,C10,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,13,0,,,Not accessible
+8BUE,10,C12,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,13,0.153846154,,,Not accessible
+8BUE,15,C17,C,1,3,14.14532273,3.5827866,0.3827865,ok,TRUE,13.007181,9.7,22.707182,9.6,-69.86412453,21.80474352,-15.30008904,0.762627714,0.256631852,0.59375,ok,,1,12,13,0.076923077,45.76802885,3.53E+33,high rigidification
+8BUE,16,C18,C,1,3,3.023663744,2.6957896,-0.5042105,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,13,13,0,,,Not accessible
+8BUE,17,C19,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,13,0,,,Not accessible
+8BUE,18,C20,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,13,0.076923077,,,Not accessible
+8BUE,1,C9,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,13,0.076923077,,,Not accessible
+8BUE,20,N1,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,13,0.384615385,,,Not accessible
+8BUE,22,N3,N,1,3,5.499393683,4.071046,0.8710458,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,10,13,0.230769231,,,No cone found
+8BUF,15,C10,C,3,4,2.398962572,3.6125152,0.41251516,ok,TRUE,16.060392,9.7,25.760391,7.8,-68.3571468,24.09290993,-24.73711935,0.499550825,0.054264472,0.864583333,ok,,2,13,13,0,,,high rigidification
+8BUF,16,C11,C,3,4,15.60297144,4.205081,1.0050809,ok,TRUE,10.910784,8.2,19.110785,11.4,-67.23512695,22.86944776,-12.36602957,0.762627714,0.256631852,0.59375,ok,,1,12,13,0.076923077,9.077445522,4506234.036,high rigidification
+8BUF,5,C12,C,2,4,0.575077195,2.7659142,-0.43408585,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,11,13,0.153846154,,,Not accessible
+8BUF,0,C13,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,13,0.230769231,,,Not accessible
+8BUF,1,C14,C,2,4,3.184258191,3.0030036,-0.19699645,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,10,13,0.230769231,,,Not accessible
+8BUF,13,C3,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,13,0.384615385,,,Not accessible
+8BUF,3,C17,C,1,3,4.526122466,2.6804788,-0.51952124,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,12,13,0.076923077,,,Not accessible
+8BUF,4,C18,C,1,3,0.070977154,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.071 <= 0.100,0,13,13,0,,,Not accessible
+8BUF,8,C6,C,1,3,13.61428423,4.2305293,1.0305293,ok,TRUE,9.379747,9.7,19.079748,13.2,-67.10876728,21.59383739,-10.46724964,0.762627714,0.256631852,0.59375,ok,,1,9,13,0.307692308,7.796003485,518215.2769,high rigidification
+8BUF,10,C9,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,13,0.230769231,,,Not accessible
+8BUF,18,N1,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,7,13,0.461538462,,,Not accessible
+8BUG,5,C15,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,14,0,,,Not accessible
+8BUG,16,C4,C,3,4,7.53283864,3.5879,0.38789988,ok,TRUE,16.060392,9.7,25.760391,7.8,-72.92272491,28.84371643,-20.24964384,0.695318956,-0.17159218,0.697916667,ok,,1,14,14,0,,,high rigidification
+8BUG,18,C6,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,14,0.428571429,,,Not accessible
+8BUG,1,C11,C,1,3,1.631368881,3.159672,-0.040328026,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,12,14,0.142857143,,,Not accessible
+8BUG,2,C12,C,1,3,2.298402836,3.1508763,-0.049123764,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,13,14,0.071428571,,,Not accessible
+8BUG,4,C13,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,14,0,,,Not accessible
+8BUG,14,C2,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,14,0.071428571,,,Not accessible
+8BUG,21,C9,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,14,0.428571429,,,Not accessible
+8BUG,10,N2,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,14,0.285714286,,,Not accessible
+8BUG,8,N4,N,1,3,1.702852116,1.9280941,-1.2719059,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,10,14,0.285714286,,,Not accessible
+8BUH,0,C1,C,3,4,0.204595514,3.5833647,0.38336468,ok,TRUE,16.060392,9.7,25.760391,7.8,-67.56820515,23.51371481,-24.16926053,0.499550825,0.054264472,0.864583333,ok,,2,15,16,0.0625,,,high rigidification
+8BUH,21,C23,C,3,4,4.247114666,4.2309933,1.0309932,ok,TRUE,20.931602,6.7,27.631601,6,-67.32308438,25.24461511,-23.95908357,0.499550825,0.054264472,0.864583333,ok,,2,16,16,0,,,high rigidification
+8BUH,6,C3,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,16,0.0625,,,Not accessible
+8BUH,19,C21,C,2,4,15.08495181,4.4522767,1.2522767,ok,TRUE,8.210512,7.7,15.910512,15,-64.98331436,24.47771284,-5.489697806,0.903917308,-0.023093866,0.427083333,ok,,2,15,16,0.0625,6.950111961,124298.9391,high rigidification
+8BUH,20,C22,C,2,4,11.78232823,4.4918885,1.2918885,ok,TRUE,6.7709036,9.7,16.470903,18,-62.05417237,27.53762736,-7.813863812,0.695318956,-0.17159218,0.697916667,ok,,2,15,16,0.0625,6.354482076,45484.94628,high rigidification
+8BUH,26,C8,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,16,0.5,,,Not accessible
+8BUH,11,C10,C,1,3,1.364782381,4.273366,1.0733659,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,10,16,0.375,,,No cone found
+8BUH,12,C11,C,1,3,0.846957982,2.1562848,-1.0437152,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,11,16,0.3125,,,Not accessible
+8BUH,14,C14,C,1,3,1.474235764,2.944397,-0.25560308,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,14,16,0.125,,,Not accessible
+8BUH,15,C15,C,1,3,0.298854076,2.6137252,-0.58627486,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,15,16,0.0625,,,Not accessible
+8BUH,16,C16,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,16,0,,,Not accessible
+8BUH,17,C17,C,1,3,1.456917652,2.707637,-0.49236298,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,15,16,0.0625,,,Not accessible
+8BUH,3,C2,C,1,4,0.021195298,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.021 <= 0.100,0,14,16,0.125,,,Not accessible
+8BUH,24,C20,C,1,4,0.121575163,4.067981,0.8679807,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,14,16,0.125,,,No cone found
+8BUH,7,C4,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,16,0.1875,,,Not accessible
+8BUH,27,N3,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,16,0.4375,,,Not accessible
+8BUH,28,N4,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,16,0.375,,,Not accessible
+8BUH,31,N7,N,1,3,6.613927566,4.1260242,0.9260242,ok,TRUE,13.007181,9.7,22.707182,9.6,-64.25938402,18.01386133,-16.12085333,0.507117531,0.405707164,0.760416667,ok,,1,13,16,0.1875,45.76802885,3.53E+33,high rigidification
+8BUH,5,O2,O,1,2,10.60032755,2.6540244,-0.5459757,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,16,16,0,,,Not accessible
+8BUI,11,C13,C,3,4,5.345239983,3.832241,0.632241,ok,TRUE,9.379747,9.7,19.079748,13.2,-61.35868425,24.60766531,-14.87669316,0.499550825,0.054264472,0.864583333,ok,,2,15,15,0,7.796003485,518215.2769,high rigidification
+8BUI,21,C8,C,3,4,0.05030971,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.050 <= 0.100,0,14,15,0.066666667,,,Not accessible
+8BUI,22,C9,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,15,0.066666667,,,Not accessible
+8BUI,1,C11,C,2,4,3.106675621,3.5307631,0.3307631,ok,TRUE,13.007181,9.7,22.707182,9.6,-69.05792125,16.59242539,-8.105548452,0.811266457,0.487413133,0.322916667,ok,,1,14,15,0.066666667,45.76802885,3.53E+33,high rigidification
+8BUI,12,C12,C,2,4,0.342508016,3.2019417,0.001941681,ok,TRUE,20.931602,9.7,30.631601,6,-68.9137918,14.27098017,-22.54173897,0.507117531,0.405707164,0.760416667,ok,,1,14,15,0.066666667,,,high rigidification
+8BUI,13,C10,C,1,4,9.454488169,4.7319236,1.5319235,ok,TRUE,8.210512,9.7,17.910511,15,-60.02963008,24.88857628,-12.28400927,0.499550825,0.054264472,0.864583333,ok,,1,13,15,0.133333333,7.027003933,141523.848,high rigidification
+8BUI,10,C14,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,15,0.4,,,Not accessible
+8BUI,9,C15,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,15,0.333333333,,,Not accessible
+8BUI,14,C17,C,1,3,2.854247457,3.2421544,0.042154312,ok,TRUE,10.910784,9.7,20.610785,11.4,-72.85411705,24.48878209,3.758977824,0.958069676,0.054780777,-0.28125,ok,,1,10,15,0.333333333,9.107854837,4743554.846,high rigidification
+8BUI,15,C18,C,1,3,4.678292474,4.070312,0.870312,ok,TRUE,16.060392,9.7,25.760391,7.8,-76.31971131,21.08709194,-3.93726477,0.969781751,0.187374738,0.15625,ok,,1,9,15,0.4,,,high rigidification
+8BUI,17,C20,C,1,3,2.139146329,3.0279982,-0.17200184,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,13,15,0.133333333,,,Not accessible
+8BUI,18,C21,C,1,3,0.019987769,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.020 <= 0.100,0,14,15,0.066666667,,,Not accessible
+8BUI,19,C22,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,15,0,,,Not accessible
+8BUI,0,C23,C,1,3,1.245287064,2.8397484,-0.36025167,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,14,15,0.066666667,,,Not accessible
+8BUI,7,C6,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,15,0.2,,,Not accessible
+8BUI,20,C7,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,15,0.133333333,,,Not accessible
+8BUI,23,N1,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,15,0.466666667,,,Not accessible
+8BUI,28,N6,N,1,3,1.416980897,3.0755668,-0.12443328,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,12,15,0.2,,,Not accessible
+8BUI,30,O1,O,1,2,26.0973698,3.6960678,0.49606776,ok,TRUE,6.7709036,7.7,14.470903,18,-63.53930738,25.91277171,-4.683899818,0.903917308,-0.023093866,0.427083333,ok,,1,15,15,0,6.293458139,41033.33636,high rigidification
+8BUJ,10,C10,C,3,4,0.017615331,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.018 <= 0.100,0,14,15,0.066666667,,,Not accessible
+8BUJ,5,C11,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,15,0.066666667,,,Not accessible
+8BUJ,6,C15,C,3,4,9.251033314,4.9154334,1.7154334,ok,TRUE,6.7709036,6.7,13.470903,18,-61.27145775,23.02896353,-9.392894361,0.762627714,0.256631852,0.59375,ok,,3,15,15,0,6.095021946,29355.00043,high rigidification
+8BUJ,13,C20,C,3,4,0.753734405,3.7207577,0.5207577,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,15,15,0,,,No cone found
+8BUJ,14,C1,C,2,4,0.520850171,3.5172138,0.31721377,ok,TRUE,20.931602,9.7,30.631601,6,-82.54405185,20.11223731,-5.599050707,0.969781751,0.187374738,0.15625,ok,,1,9,15,0.4,,,high rigidification
+8BUJ,11,C13,C,2,4,15.58662999,4.588179,1.3881791,ok,TRUE,6.7709036,8.2,14.970903,18,-63.8527969,23.72295011,-3.868176548,0.969781751,0.187374738,0.15625,ok,,1,14,15,0.066666667,6.352707436,45348.91135,high rigidification
+8BUJ,12,C14,C,2,4,6.088719815,3.9325428,0.73254275,ok,TRUE,5.731196,7.2,12.931196,21,-61.69222059,25.8991807,-6.768283256,0.903917308,-0.023093866,0.427083333,ok,,1,14,15,0.066666667,4.956558269,4297.168908,modest rigidification
+8BUJ,7,C16,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,15,0.266666667,,,Not accessible
+8BUJ,8,C17,C,2,4,0.945660313,3.3534179,0.15341783,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,12,15,0.2,,,No cone found
+8BUJ,16,C18,C,2,4,3.012510124,2.556686,-0.6433141,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,13,15,0.133333333,,,Not accessible
+8BUJ,17,C19,C,2,4,3.765347273,3.4211607,0.22116065,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,14,15,0.066666667,,,No cone found
+8BUJ,0,C2,C,2,4,0.320633051,2.7029197,-0.49708033,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,10,15,0.333333333,,,Not accessible
+8BUJ,18,C3,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,15,0.466666667,,,Not accessible
+8BUJ,15,C12,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,15,0.133333333,,,Not accessible
+8BUJ,4,C8,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,15,0.2,,,Not accessible
+8BUJ,20,C9,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,15,0.133333333,,,Not accessible
+8BUJ,9,N1,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,15,0.466666667,,,Not accessible
+8BUJ,25,N6,N,1,3,0.376807765,3.382832,0.182832,ok,TRUE,16.060392,7.7,23.760391,7.8,-70.56771893,18.66846402,-14.7896736,0.762627714,0.256631852,0.59375,ok,,1,12,15,0.2,,,high rigidification
+8BUJ,26,O1,O,1,2,5.69631929,2.5865712,-0.61342883,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,15,15,0,,,Not accessible
+8BUK,7,C12,C,3,4,0.292265218,3.579475,0.37947488,ok,TRUE,16.060392,9.7,25.760391,7.8,54.47582966,-47.05357598,23.37022426,-0.196783143,0.462354901,-0.864583333,ok,,1,13,14,0.071428571,,,high rigidification
+8BUK,1,C13,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,14,0.071428571,,,Not accessible
+8BUK,3,C17,C,3,4,12.41420906,4.5314326,1.3314326,ok,TRUE,10.910784,7.2,18.110785,11.4,51.31890192,-44.9153984,12.40181192,-0.148790029,0.790773333,-0.59375,ok,,2,14,14,0,8.561183458,1885345.829,high rigidification
+8BUK,2,C15,C,2,4,5.149577944,3.6463146,0.44631457,ok,TRUE,13.007181,9.7,22.707182,9.6,55.85253057,-51.93851311,4.449749104,-0.310448372,0.937660784,-0.15625,ok,,1,13,14,0.071428571,45.76802885,3.53E+33,high rigidification
+8BUK,9,C16,C,2,4,12.01406577,4.776019,1.576019,ok,TRUE,8.210512,6.2,14.410512,15,50.86106287,-43.08623377,9.317883374,-0.148790029,0.790773333,-0.59375,ok,,2,13,14,0.071428571,6.496853057,57839.74097,high rigidification
+8BUK,18,C5,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,14,0.428571429,,,Not accessible
+8BUK,0,C10,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,14,0.214285714,,,Not accessible
+8BUK,6,C11,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,14,0.142857143,,,Not accessible
+8BUK,8,C14,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,14,0.142857143,,,Not accessible
+8BUK,10,C18,C,1,3,0.182900119,3.825985,0.6259849,ok,TRUE,20.931602,8.7,29.631601,6,57.30959907,-60.95168356,5.229292383,-0.310448372,0.937660784,-0.15625,ok,,1,10,14,0.285714286,,,high rigidification
+8BUK,11,C19,C,1,3,4.206943905,2.5223138,-0.6776862,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,11,14,0.214285714,,,Not accessible
+8BUK,4,C20,C,1,3,3.323779168,2.671307,-0.52869296,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,13,14,0.071428571,,,Not accessible
+8BUK,5,C21,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,14,0,,,Not accessible
+8BUK,14,C22,C,1,3,0.21708085,2.9248805,-0.27511954,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,13,14,0.071428571,,,Not accessible
+8BUK,15,C23,C,1,3,0.743071678,2.3299158,-0.8700843,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,12,14,0.142857143,,,Not accessible
+8BUK,16,C3,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,14,0.285714286,,,Not accessible
+8BUK,23,N1,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,7,14,0.5,,,Not accessible
+8BUK,28,N6,N,1,3,1.844384496,3.4479916,0.24799156,ok,TRUE,16.060392,7.7,23.760391,7.8,51.34460491,-51.87100137,14.7044693,-0.148790029,0.790773333,-0.59375,ok,,1,11,14,0.214285714,,,high rigidification
+8BUK,29,O1,O,1,2,14.84016587,2.7616222,-0.43837786,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,14,14,0,,,Not accessible
+8BUL,4,C13,C,3,4,6.753135527,4.7844677,1.5844676,ok,TRUE,9.379747,8.2,17.579748,13.2,-64.92629616,22.33934496,-11.68893268,0.762627714,0.256631852,0.59375,ok,,2,14,14,0,7.769732016,495739.0058,high rigidification
+8BUL,19,C8,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,14,0.071428571,,,Not accessible
+8BUL,20,C9,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,14,0.071428571,,,Not accessible
+8BUL,0,C1,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,14,0.428571429,,,Not accessible
+8BUL,2,C11,C,2,4,20.51859207,3.9062223,0.7062223,ok,TRUE,9.379747,8.2,17.579748,13.2,-66.98204806,25.45137282,-6.188844807,0.903917308,-0.023093866,0.427083333,ok,,2,13,14,0.071428571,7.769732016,495739.0058,high rigidification
+8BUL,3,C12,C,2,4,1.304525337,2.87325,-0.32675004,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,13,14,0.071428571,,,Not accessible
+8BUL,5,C14,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,14,0.357142857,,,Not accessible
+8BUL,6,C15,C,2,4,0.89694002,3.5806255,0.3806255,ok,TRUE,20.931602,9.7,30.631601,6,-82.81538678,20.25830361,-3.971787863,0.969781751,0.187374738,0.15625,ok,,1,10,14,0.285714286,,,high rigidification
+8BUL,1,C10,C,1,4,11.60569678,4.9403925,1.7403924,ok,TRUE,8.210512,7.2,15.410512,15,-63.4312947,23.18374602,-9.36784806,0.762627714,0.256631852,0.59375,ok,,1,12,14,0.142857143,6.793983438,95504.62864,high rigidification
+8BUL,8,C17,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,14,0.142857143,,,Not accessible
+8BUL,9,C18,C,1,3,0.786067223,3.3196504,0.119650364,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,13,14,0.071428571,,,No cone found
+8BUL,10,C19,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,14,0,,,Not accessible
+8BUL,12,C20,C,1,3,1.584410878,2.903968,-0.29603195,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,13,14,0.071428571,,,Not accessible
+8BUL,13,C21,C,1,3,3.543008727,2.4231176,-0.7768824,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,12,14,0.142857143,,,Not accessible
+8BUL,17,C6,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,14,0.214285714,,,Not accessible
+8BUL,18,C7,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,14,0.142857143,,,Not accessible
+8BUL,21,N1,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,7,14,0.5,,,Not accessible
+8BUL,26,N6,N,1,3,0.526792739,3.1478577,-0.05214238,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,11,14,0.214285714,,,Not accessible
+8BUL,27,O1,O,1,2,3.107252893,3.161773,-0.03822708,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,14,14,0,,,Not accessible
+8BUM,4,C13,C,3,4,26.61185191,4.5250154,1.3250153,ok,TRUE,9.379747,7.2,16.579748,13.2,-62.95455284,28.19355611,-10.42525619,0.695318956,-0.17159218,0.697916667,ok,,3,17,17,0,7.382217261,257752.4515,high rigidification
+8BUM,25,C8,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,17,0.058823529,,,Not accessible
+8BUM,26,C9,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,17,0.058823529,,,Not accessible
+8BUM,0,C1,C,2,4,0.523219607,3.7120297,0.51202965,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,9,17,0.470588235,,,No cone found
+8BUM,2,C11,C,2,4,0.530078906,3.3443434,0.14434338,ok,TRUE,16.060392,8.7,24.760391,7.8,-64.31316775,23.49192644,-21.00966677,0.499550825,0.054264472,0.864583333,ok,,1,16,17,0.058823529,,,high rigidification
+8BUM,3,C12,C,2,4,8.366451721,3.869288,0.6692879,ok,TRUE,16.060392,6.7,22.760391,7.8,-64.00373297,24.26061915,-18.83978331,0.499550825,0.054264472,0.864583333,ok,,1,16,17,0.058823529,,,high rigidification
+8BUM,5,C14,C,2,4,0.452882203,3.3565125,0.1565125,ok,TRUE,20.931602,9.7,30.631601,6,-84.84783619,20.19282486,-6.91300648,0.969781751,0.187374738,0.15625,ok,,1,9,17,0.470588235,,,high rigidification
+8BUM,6,C15,C,2,4,0.866935826,3.239573,0.039572954,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,10,17,0.411764706,,,No cone found
+8BUM,7,C16,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,17,0.352941176,,,Not accessible
+8BUM,8,C17,C,2,4,0.086940137,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.087 <= 0.100,0,12,17,0.294117647,,,Not accessible
+8BUM,1,C10,C,1,4,3.022144522,3.2796135,0.07961345,ok,TRUE,20.931602,9.7,30.631601,6,-74.02283938,17.80769176,-17.32688648,0.762627714,0.256631852,0.59375,ok,,1,15,17,0.117647059,,,high rigidification
+8BUM,10,C19,C,1,3,1.295558424,2.8555753,-0.34442472,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,14,17,0.176470588,,,Not accessible
+8BUM,12,C20,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,17,0.117647059,,,Not accessible
+8BUM,13,C21,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,17,0.058823529,,,Not accessible
+8BUM,16,C24,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,17,0.058823529,,,Not accessible
+8BUM,17,C25,C,1,3,0.320371424,2.3831825,-0.8168175,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,17,17,0,,,Not accessible
+8BUM,18,C26,C,1,3,12.11674893,3.0984106,-0.10158944,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,16,17,0.058823529,,,Not accessible
+8BUM,19,C27,C,1,3,3.066485006,3.7153902,0.51539016,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,15,17,0.117647059,,,No cone found
+8BUM,23,C6,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,17,0.176470588,,,Not accessible
+8BUM,24,C7,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,17,0.117647059,,,Not accessible
+8BUM,27,N1,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,17,0.411764706,,,Not accessible
+8BUM,32,N6,N,1,3,2.632299903,3.7864213,0.58642125,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,14,17,0.176470588,,,No cone found
+8BUM,33,O1,O,1,2,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,17,17,0,,,Not accessible
+8BUN,17,C13,C,3,4,6.091641294,3.5957956,0.39579558,ok,TRUE,8.210512,9.7,17.910511,15,-60.91090947,20.4812646,-12.53119601,0.507117531,0.405707164,0.760416667,ok,,2,16,16,0,7.027003933,141523.848,high rigidification
+8BUN,7,C8,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,16,0.0625,,,Not accessible
+8BUN,8,C9,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,16,0.0625,,,Not accessible
+8BUN,14,C1,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,16,0.5,,,Not accessible
+8BUN,9,C11,C,2,4,2.128477881,2.267011,-0.9329891,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,15,16,0.0625,,,Not accessible
+8BUN,16,C12,C,2,4,1.347955378,3.2399187,0.03991866,ok,TRUE,16.060392,9.7,25.760391,7.8,-66.21040811,23.83127449,-21.79106969,0.499550825,0.054264472,0.864583333,ok,,1,15,16,0.0625,,,high rigidification
+8BUN,15,C10,C,1,4,12.92738392,4.5844145,1.3844144,ok,TRUE,9.379747,7.2,16.579748,13.2,-64.46233228,22.16529972,-10.7612777,0.762627714,0.256631852,0.59375,ok,,1,14,16,0.125,7.382217261,257752.4515,high rigidification
+8BUN,11,C15,C,1,3,0.855950773,3.3935988,0.19359875,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,10,16,0.375,,,No cone found
+8BUN,12,C16,C,1,3,1.457167864,2.7185128,-0.48148727,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,11,16,0.3125,,,Not accessible
+8BUN,19,C18,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,16,0.3125,,,Not accessible
+8BUN,20,C19,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,16,0.375,,,Not accessible
+8BUN,22,C21,C,1,3,0.618678833,3.0928788,-0.10712123,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,14,16,0.125,,,Not accessible
+8BUN,23,C22,C,1,3,0.379737086,2.8775065,-0.32249355,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,15,16,0.0625,,,Not accessible
+8BUN,24,C23,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,16,0,,,Not accessible
+8BUN,25,C24,C,1,3,1.130440678,2.27711,-0.92288995,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,15,16,0.0625,,,Not accessible
+8BUN,26,C25,C,1,3,1.901752561,2.4157076,-0.78429246,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,14,16,0.125,,,Not accessible
+8BUN,5,C6,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,16,0.1875,,,Not accessible
+8BUN,6,C7,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,16,0.125,,,Not accessible
+8BUN,0,N1,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,16,0.4375,,,Not accessible
+8BUN,31,N6,N,1,3,2.987806443,4.2994885,1.0994885,ok,TRUE,20.931602,9.7,30.631601,6,-74.34466264,29.29635839,-19.30272918,0.695318956,-0.17159218,0.697916667,ok,,1,13,16,0.1875,,,high rigidification
+8BUN,13,O1,O,1,2,16.04629462,3.4096801,0.20968008,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,16,16,0,,,No cone found
+8BUO,21,C19,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,16,0.0625,,,Not accessible
+8BUO,22,C20,C,3,4,0.092183146,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.092 <= 0.100,0,15,16,0.0625,,,Not accessible
+8BUO,26,C24,C,3,4,0.021405935,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.021 <= 0.100,0,16,16,0,,,Not accessible
+8BUO,7,C12,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,16,0.5,,,Not accessible
+8BUO,24,C22,C,2,4,1.82930257,2.332121,-0.86787915,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,15,16,0.0625,,,Not accessible
+8BUO,25,C23,C,2,4,20.71815867,4.525147,1.3251469,ok,TRUE,8.210512,9.7,17.910511,15,-60.66783213,20.77439297,-12.23579801,0.507117531,0.405707164,0.760416667,ok,,2,15,16,0.0625,7.027003933,141523.848,high rigidification
+8BUO,8,C1,C,1,3,1.232414033,3.0371907,-0.16280937,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,15,16,0.0625,,,Not accessible
+8BUO,5,C10,C,1,3,0.30935974,3.8643544,0.6643543,ok,TRUE,16.060392,9.7,25.760391,7.8,-77.41170436,20.06977161,-4.818860413,0.969781751,0.187374738,0.15625,ok,,1,10,16,0.375,,,high rigidification
+8BUO,6,C11,C,1,3,1.650336954,2.6534212,-0.5465789,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,11,16,0.3125,,,Not accessible
+8BUO,19,C17,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,16,0.1875,,,Not accessible
+8BUO,20,C18,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,16,0.125,,,Not accessible
+8BUO,23,C21,C,1,4,7.232069718,4.3621016,1.1621015,ok,TRUE,8.210512,6.7,14.910512,15,-64.17130243,22.70699194,-8.876934464,0.762627714,0.256631852,0.59375,ok,,1,14,16,0.125,6.642956544,74015.20365,high rigidification
+8BUO,10,C3,C,1,3,2.026679871,2.3678322,-0.83216786,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,14,16,0.125,,,Not accessible
+8BUO,11,C4,C,1,3,1.856010355,2.251963,-0.94803715,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,15,16,0.0625,,,Not accessible
+8BUO,12,C5,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,16,0,,,Not accessible
+8BUO,3,C8,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,16,0.375,,,Not accessible
+8BUO,1,N2,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,16,0.4375,,,Not accessible
+8BUO,32,N7,N,1,3,0.094625549,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.095 <= 0.100,0,13,16,0.1875,,,Not accessible
+8BUO,14,O1,O,1,2,13.60078018,2.8132215,-0.3867786,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,16,16,0,,,Not accessible
+8BUP,15,C13,C,3,4,17.71147556,4.870174,1.6701739,ok,TRUE,5.731196,6.2,11.931196,21,-61.52812084,25.69957419,-6.281651994,0.903917308,-0.023093866,0.427083333,ok,,2,14,14,0,4.799563633,3296.890765,modest rigidification
+8BUP,21,C22,C,3,4,0.34487291,3.2147176,0.014717579,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,14,14,0,,,No cone found
+8BUP,11,C8,C,3,4,0.423344365,3.497947,0.29794693,ok,TRUE,16.060392,9.7,25.760391,7.8,-68.25763168,23.97853885,-23.09825021,0.499550825,0.054264472,0.864583333,ok,,1,13,14,0.071428571,,,high rigidification
+8BUP,4,C9,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,14,0.071428571,,,Not accessible
+8BUP,14,C1,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,14,0.428571429,,,Not accessible
+8BUP,19,C11,C,2,4,18.29449972,4.5238857,1.3238857,ok,TRUE,6.7709036,8.2,14.970903,18,-64.33267728,23.36868655,-3.022259886,0.969781751,0.187374738,0.15625,ok,,2,13,14,0.071428571,6.352707436,45348.91135,high rigidification
+8BUP,12,C12,C,2,4,1.006094087,3.3085487,0.10854864,ok,TRUE,6.7709036,8.2,14.970903,18,-63.6034447,26.82712561,-6.147683249,0.903917308,-0.023093866,0.427083333,ok,,1,13,14,0.071428571,6.352707436,45348.91135,high rigidification
+8BUP,9,C14,C,2,4,0.736815118,3.7558508,0.55585074,ok,TRUE,13.007181,9.7,22.707182,9.6,-74.90679646,21.59998504,-4.09162751,0.969781751,0.187374738,0.15625,ok,,1,9,14,0.357142857,45.76802885,3.53E+33,high rigidification
+8BUP,17,C15,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,14,0.285714286,,,Not accessible
+8BUP,5,C10,C,1,4,0.029000496,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.029 <= 0.100,0,12,14,0.142857143,,,Not accessible
+8BUP,8,C17,C,1,3,1.619867365,2.7497168,-0.4502833,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,12,14,0.142857143,,,Not accessible
+8BUP,22,C18,C,1,3,0.321279963,2.5801039,-0.6198962,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,13,14,0.071428571,,,Not accessible
+8BUP,20,C19,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,14,0,,,Not accessible
+8BUP,7,C21,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,14,0.142857143,,,Not accessible
+8BUP,2,C6,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,14,0.214285714,,,Not accessible
+8BUP,3,C7,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,14,0.142857143,,,Not accessible
+8BUP,23,N1,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,7,14,0.5,,,Not accessible
+8BUP,28,N6,N,1,3,4.114200797,4.1108456,0.9108455,ok,TRUE,16.060392,9.7,25.760391,7.8,-65.95242559,22.70870668,-20.1736162,0.499550825,0.054264472,0.864583333,ok,,1,11,14,0.214285714,,,high rigidification
+8BUP,18,O1,O,1,2,5.616457424,2.4868357,-0.7131643,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,14,14,0,,,Not accessible
+8BUQ,6,C1,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,15,0.066666667,,,Not accessible
+8BUQ,17,C22,C,3,4,4.909091287,4.2657866,1.0657866,ok,TRUE,13.007181,8.7,21.707182,9.6,-68.86085047,21.88913916,-13.99227593,0.762627714,0.256631852,0.59375,ok,,3,15,15,0,45.76802885,3.53E+33,high rigidification
+8BUQ,8,C3,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,15,0.066666667,,,Not accessible
+8BUQ,3,C20,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,15,0.066666667,,,Not accessible
+8BUQ,21,C21,C,2,4,21.24772102,4.342922,1.1429222,ok,TRUE,8.210512,5.7,13.910512,15,-60.31907869,21.17283907,-11.66745163,0.507117531,0.405707164,0.760416667,ok,,2,14,15,0.066666667,4.842027792,3541.856836,modest rigidification
+8BUQ,13,C8,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,15,0.466666667,,,Not accessible
+8BUQ,18,C11,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,15,0.133333333,,,Not accessible
+8BUQ,15,C12,C,1,3,1.477384886,3.1974397,-0.002560377,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,14,15,0.066666667,,,Not accessible
+8BUQ,1,C13,C,1,3,0.162634051,2.9753315,-0.2246685,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,15,15,0,,,Not accessible
+8BUQ,19,C15,C,1,3,0.468300671,2.3433552,-0.85664487,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,13,15,0.133333333,,,Not accessible
+8BUQ,20,C16,C,1,3,6.701412357,3.1310322,-0.06896782,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,11,15,0.266666667,,,Not accessible
+8BUQ,2,C17,C,1,3,1.79795301,2.957233,-0.2427671,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,10,15,0.333333333,,,Not accessible
+8BUQ,16,C19,C,1,4,2.425518661,2.6466744,-0.55332565,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,13,15,0.133333333,,,Not accessible
+8BUQ,7,C2,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,15,0.133333333,,,Not accessible
+8BUQ,9,C4,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,15,0.2,,,Not accessible
+8BUQ,25,N3,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,15,0.466666667,,,Not accessible
+8BUQ,12,N7,N,1,3,4.283303434,4.60371,1.4037101,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,12,15,0.2,,,No cone found
+8BUQ,30,O1,O,1,2,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,15,0,,,Not accessible
+8BUR,34,C31,C,3,4,20.90260141,3.9165556,0.7165556,ok,TRUE,2.2,2.2,4.4,45,-56.64650215,27.50466891,2.540255186,0.987286827,-0.158607108,-0.010416667,ok,,3,22,22,0,0.077894386,1.140504442,low rigidification
+8BUR,10,C7,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,22,0.318181818,,,Not accessible
+8BUR,11,C8,C,3,4,5.153051552,3.5223296,0.32232952,ok,TRUE,16.060392,9.7,25.760391,7.8,-67.84710687,24.22267698,-25.32576049,0.499550825,0.054264472,0.864583333,ok,,2,15,22,0.318181818,,,high rigidification
+8BUR,13,C10,C,2,4,1.072948913,3.5481014,0.34810138,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,14,22,0.363636364,,,No cone found
+8BUR,26,C23,C,2,4,9.77385283,3.7230115,0.52301145,ok,TRUE,3.387703,5.7,9.087703,33,-58.47602292,26.47930958,-3.229774108,0.903917308,-0.023093866,0.427083333,ok,,1,17,22,0.227272727,1.660830712,16.49671079,low rigidification
+8BUR,27,C24,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,18,22,0.181818182,,,Not accessible
+8BUR,12,C9,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,22,0.363636364,,,Not accessible
+8BUR,16,C13,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,22,0.272727273,,,Not accessible
+8BUR,17,C14,C,1,3,0.214608227,2.926924,-0.27307606,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,17,22,0.227272727,,,Not accessible
+8BUR,19,C16,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,17,22,0.227272727,,,Not accessible
+8BUR,20,C17,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,22,0.272727273,,,Not accessible
+8BUR,22,C19,C,1,3,1.226540269,3.391359,0.19135904,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,20,22,0.090909091,,,No cone found
+8BUR,23,C20,C,1,3,1.66994856,2.9698381,-0.2301619,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,21,22,0.045454545,,,Not accessible
+8BUR,24,C21,C,1,3,0.019468418,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.019 <= 0.100,0,22,22,0,,,Not accessible
+8BUR,25,C22,C,1,3,1.277632197,3.4824288,0.28242874,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,21,22,0.045454545,,,No cone found
+8BUR,30,C27,C,1,3,18.55055345,3.8144097,0.6144097,ok,TRUE,2.4433475,6.2,8.643348,42,-55.88538359,24.43881791,3.083026702,0.912159546,0.393491579,-0.114583333,ok,,1,21,22,0.045454545,0.761122567,3.613322397,low rigidification
+8BUR,31,C28,C,1,3,3.865142747,3.1325817,-0.06741834,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,22,22,0,,,Not accessible
+8BUR,32,C29,C,1,3,4.535760895,2.6839697,-0.5160303,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,21,22,0.045454545,,,Not accessible
+8BUR,33,C30,C,1,3,1.481396986,3.7035513,0.50355124,ok,TRUE,8.210512,8.2,16.410511,15,-66.91975162,23.67425421,-0.728985132,0.969781751,0.187374738,0.15625,ok,,1,20,22,0.090909091,7.026548031,141414.991,high rigidification
+8BUR,8,C5,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,22,0.363636364,,,Not accessible
+8BUR,9,C6,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,22,0.363636364,,,Not accessible
+8BUR,37,N5,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,22,0.409090909,,,Not accessible
+8BUR,38,N6,N,1,3,9.268223607,4.360123,1.1601231,ok,TRUE,9.379747,8.2,17.579748,13.2,-65.07469547,21.96053385,-11.263804,0.762627714,0.256631852,0.59375,ok,,1,13,22,0.409090909,7.769732016,495739.0058,high rigidification
+8BUR,40,N8,N,1,3,7.311063526,3.9121106,0.7121105,ok,TRUE,6.7709036,8.2,14.970903,18,-64.34433251,23.29864206,-2.515802261,0.969781751,0.187374738,0.15625,ok,,1,16,22,0.272727273,6.352707436,45348.91135,high rigidification
+8BUS,27,C24,C,3,4,0.484218525,3.832558,0.63255787,ok,TRUE,13.007181,9.7,22.707182,9.6,-65.88101385,23.53402266,-21.29608928,0.499550825,0.054264472,0.864583333,ok,,2,15,18,0.166666667,45.76802885,3.53E+33,high rigidification
+8BUS,28,C25,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,18,0.166666667,,,Not accessible
+8BUS,5,C3,C,3,4,12.83482091,4.198908,0.9989078,ok,TRUE,4.941281,4.2,9.141281,24,-58.24649614,24.5054103,-7.367980237,0.762627714,0.256631852,0.59375,ok,,2,18,18,0,3.010586755,160.9812911,modest rigidification
+8BUS,4,C4,C,3,4,0.198183116,4.0290785,0.82907844,ok,TRUE,13.007181,8.7,21.707182,9.6,-63.62448171,23.3249221,-19.36346689,0.499550825,0.054264472,0.864583333,ok,,2,17,18,0.055555556,45.76802885,3.53E+33,high rigidification
+8BUS,2,C6,C,2,4,1.75355199,3.41332,0.21332002,ok,TRUE,13.007181,8.7,21.707182,9.6,-69.87867714,23.59868017,-8.705800863,0.903917308,-0.023093866,0.427083333,ok,,1,14,18,0.222222222,45.76802885,3.53E+33,high rigidification
+8BUS,10,C9,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,18,0.444444444,,,Not accessible
+8BUS,6,N1,N,2,3,28.5230705,2.7710598,-0.4289403,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,18,18,0,,,Not accessible
+8BUS,14,C11,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,18,0.333333333,,,Not accessible
+8BUS,13,C12,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,18,0.277777778,,,Not accessible
+8BUS,18,C15,C,1,3,3.90119575,2.994949,-0.20505095,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,16,18,0.111111111,,,Not accessible
+8BUS,19,C16,C,1,3,1.457379069,2.226595,-0.9734051,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,17,18,0.055555556,,,Not accessible
+8BUS,20,C17,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,18,18,0,,,Not accessible
+8BUS,21,C18,C,1,3,0.610789009,2.8141055,-0.38589454,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,17,18,0.055555556,,,Not accessible
+8BUS,22,C19,C,1,3,2.480141512,3.2008789,0.000878811,ok,TRUE,16.060392,9.7,25.760391,7.8,-73.82446348,25.2684086,11.72536715,0.693228282,-0.053225804,-0.71875,ok,,1,13,18,0.277777778,,,high rigidification
+8BUS,23,C20,C,1,3,2.750636288,3.4384155,0.23841548,ok,TRUE,13.007181,2.2,15.207181,9.6,-74.43153606,20.3570293,-4.045476786,0.969781751,0.187374738,0.15625,ok,,1,12,18,0.333333333,0.078229141,1.141149011,low rigidification
+8BUS,25,C22,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,18,0.277777778,,,Not accessible
+8BUS,26,C23,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,18,0.222222222,,,Not accessible
+8BUS,32,N4,N,1,3,0.482535575,3.6603613,0.46036124,ok,TRUE,10.910784,8.2,19.110785,11.4,-69.41555166,25.89346974,-8.61406753,0.903917308,-0.023093866,0.427083333,ok,,1,13,18,0.277777778,9.077445522,4506234.036,high rigidification
+8BUS,34,N6,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,18,0.5,,,Not accessible
+8BUT,0,C1,C,3,4,10.57651255,4.4837027,1.2837026,ok,TRUE,6.7709036,7.7,14.470903,18,-64.9759667,22.97559221,-2.436588037,0.969781751,0.187374738,0.15625,ok,,2,16,16,0,6.293458139,41033.33636,high rigidification
+8BUT,16,C19,C,3,4,0.902566184,3.5326595,0.33265948,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,15,16,0.0625,,,No cone found
+8BUT,20,C20,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,16,0.0625,,,Not accessible
+8BUT,11,C12,C,2,4,3.138625795,2.797926,-0.4020741,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,14,16,0.125,,,Not accessible
+8BUT,12,C13,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,16,0.0625,,,Not accessible
+8BUT,1,C2,C,2,4,14.42095628,4.9999266,1.7999265,ok,TRUE,8.210512,7.2,15.410512,15,-64.94840777,24.71439385,-6.191972458,0.903917308,-0.023093866,0.427083333,ok,,1,15,16,0.0625,6.793983438,95504.62864,high rigidification
+8BUT,3,C4,C,2,4,20.51954143,4.9561405,1.7561405,ok,TRUE,8.210512,7.2,15.410512,15,-63.61220065,22.91131496,-10.08039138,0.762627714,0.256631852,0.59375,ok,,1,15,16,0.0625,6.793983438,95504.62864,high rigidification
+8BUT,6,C7,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,16,0.5,,,Not accessible
+8BUT,9,C10,C,1,3,1.119971707,2.4216173,-0.7783828,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,11,16,0.3125,,,Not accessible
+8BUT,13,C14,C,1,3,0.715346613,2.3469248,-0.85307527,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,11,16,0.3125,,,Not accessible
+8BUT,14,C15,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,16,0.375,,,Not accessible
+8BUT,15,C17,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,16,0.1875,,,Not accessible
+8BUT,19,C18,C,1,4,0.392005428,3.936939,0.73693895,ok,TRUE,16.060392,9.7,25.760391,7.8,-68.21433893,24.36873043,-22.6815841,0.499550825,0.054264472,0.864583333,ok,,1,14,16,0.125,,,high rigidification
+8BUT,2,C3,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,16,0.125,,,Not accessible
+8BUT,8,C9,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,16,0.375,,,Not accessible
+8BUT,21,N1,N,1,3,2.93553096,4.0153055,0.8153055,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,13,16,0.1875,,,No cone found
+8BUT,23,N3,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,16,0.4375,,,Not accessible
+8BUT,27,O1,O,1,2,8.071368145,3.2320287,0.032028675,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,16,16,0,,,No cone found
+8BUT,29,O3,O,1,2,1.150514548,2.7398036,-0.4601965,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,16,16,0,,,Not accessible
+8D80,13,C10,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,19,0.157894737,,,Not accessible
+8D80,14,C11,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,17,19,0.105263158,,,Not accessible
+8D80,17,C14,C,2,4,9.877471445,3.6917398,0.49173975,ok,TRUE,2.7167737,5.2,7.916774,39,108.6061975,194.5660722,139.9488277,-0.622823043,0.041712045,0.78125,ok,,1,10,19,0.473684211,0.809261239,3.91915649,low rigidification
+8D80,25,C21,C,2,4,20.84550296,5.329642,2.1296418,ok,TRUE,2.2,2.2,4.4,45,101.2267904,190.4892042,144.6146504,-0.102460912,0.988115591,0.114583333,ok,,2,15,19,0.210526316,0.077894386,1.140504442,low rigidification
+8D80,20,C22,C,2,4,14.54160228,4.219099,1.019099,ok,TRUE,2.7167737,4.2,6.916774,39,100.5157693,186.8053577,145.0544397,-0.102460912,0.988115591,0.114583333,ok,,1,17,19,0.105263158,0.36740661,1.859134943,low rigidification
+8D80,21,C23,C,2,4,18.28618009,4.3710127,1.1710126,ok,TRUE,3.387703,6.2,9.587703,33,96.48342819,187.3803003,141.5152712,0.507117531,0.405707164,0.760416667,ok,,1,18,19,0.052631579,1.873365867,23.6149326,low rigidification
+8D80,23,C24,C,2,4,23.77181832,4.3844233,1.1844232,ok,TRUE,2.7167737,4.2,6.916774,39,95.82985048,189.5694957,140.8513218,0.507117531,0.405707164,0.760416667,ok,,1,18,19,0.052631579,0.36740661,1.859134943,low rigidification
+8D80,24,C25,C,2,4,21.30494599,4.0076017,0.8076017,ok,TRUE,2.7167737,2.2,4.916774,39,99.74132185,191.3428682,140.6586125,-0.011740118,0.568040781,0.822916667,ok,,2,17,19,0.105263158,0.078229141,1.141149011,low rigidification
+8D80,10,C7,C,2,4,0.198365032,2.9186087,-0.28139138,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,13,19,0.315789474,,,Not accessible
+8D80,0,C1,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,19,0.315789474,,,Not accessible
+8D80,30,C16,C,1,3,6.628027834,3.0850165,-0.11498356,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,12,19,0.368421053,,,Not accessible
+8D80,28,C17,C,1,3,12.91316482,4.2092967,1.0092967,ok,TRUE,2.4433475,2.2,4.6433477,42,108.3539723,191.8341027,142.523649,-0.721246473,0.31951659,0.614583333,ok,,1,12,19,0.368421053,0.078229141,1.141149011,low rigidification
+8D80,29,C18,C,1,3,8.272730748,2.452198,-0.747802,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,13,19,0.315789474,,,Not accessible
+8D80,27,C19,C,1,3,14.46171807,4.1287513,0.92875123,ok,TRUE,1.8460191,2.2,4.046019,50,105.8972585,191.8489911,144.5317739,-0.850331231,-0.128107863,0.510416667,ok,,1,13,19,0.315789474,0.077370484,1.139496402,low rigidification
+8D80,1,C2,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,19,0.368421053,,,Not accessible
+8D80,3,C4,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,19,0.263157895,,,Not accessible
+8D80,12,C9,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,19,0.210526316,,,Not accessible
+8D80,7,N2,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,17,19,0.105263158,,,Not accessible
+8DEY,4,C13,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,18,0.166666667,,,Not accessible
+8DEY,5,C14,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,18,0.111111111,,,Not accessible
+8DEY,8,C20,C,2,4,3.632411633,3.1769009,-0.023099184,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,11,18,0.388888889,,,Not accessible
+8DEY,9,C21,C,2,4,20.95863347,3.8203607,0.6203606,ok,TRUE,1.8460191,2.2,4.046019,50,-23.88354118,-40.96403399,54.5362866,-0.622823043,0.041712045,0.78125,ok,,2,12,18,0.333333333,0.077370484,1.139496402,low rigidification
+8DEY,10,C23,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,18,0.333333333,,,Not accessible
+8DEY,11,C24,C,2,4,0.712213449,2.9594002,-0.24059987,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,11,18,0.388888889,,,Not accessible
+8DEY,12,C25,C,2,4,23.84013426,5.0213337,1.8213336,ok,TRUE,0.69365734,2.2,2.8936574,72.5,-23.70621018,-40.87349968,57.86116437,-0.689324283,-0.599827451,0.40625,ok,,1,14,18,0.222222222,0.069509918,1.124478416,low rigidification
+8DEY,23,C7,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,18,0.333333333,,,Not accessible
+8DEY,0,C1,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,18,0.444444444,,,Not accessible
+8DEY,18,C10,C,1,4,0.505096504,2.8056376,-0.39436245,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,10,18,0.444444444,,,Not accessible
+8DEY,3,C11,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,18,0.222222222,,,Not accessible
+8DEY,14,C27,C,1,3,19.53164924,3.3135426,0.11354256,ok,TRUE,1.0258769,2.2,3.2258768,65,-22.75140254,-41.9803949,56.59397278,0.269380396,-0.942477159,0.197916667,ok,,1,16,18,0.111111111,0.076023592,1.136908935,low rigidification
+8DEY,15,C28,C,1,3,27.14473753,3.7548196,0.5548196,ok,TRUE,0.69365734,2.2,2.8936574,72.5,-20.14891126,-43.62145676,57.15997003,0.269380396,-0.942477159,0.197916667,ok,,1,17,18,0.055555556,0.069509918,1.124478416,low rigidification
+8DEY,16,C29,C,1,3,31.72536749,4.885284,1.6852839,ok,TRUE,0.69365734,2.2,2.8936574,72.5,-17.53756492,-42.65616452,58.77534534,-0.689324283,-0.599827451,0.40625,ok,,1,18,18,0,0.069509918,1.124478416,low rigidification
+8DEY,2,C3,C,1,3,0.026188273,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.026 <= 0.100,0,10,18,0.444444444,,,Not accessible
+8DEY,17,C30,C,1,3,28.60766468,4.271324,1.0713241,ok,TRUE,1.4015546,2.2,3.6015546,57.5,-17.62214066,-39.70716625,59.77243328,-0.689324283,-0.599827451,0.40625,ok,,1,17,18,0.055555556,0.077361813,1.139479726,low rigidification
+8DEY,19,C31,C,1,3,12.46994989,2.666324,-0.53367615,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,16,18,0.111111111,,,Not accessible
+8DEY,22,C6,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,18,0.388888889,,,Not accessible
+8DEY,25,N16,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,18,0.111111111,,,Not accessible
+8G46,21,C,C,3,4,6.243175247,3.0855553,-0.11444473,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,12,15,0.2,,,Not accessible
+8G46,35,C11,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,15,0,,,Not accessible
+8G46,6,C18,C,3,4,1.81183003,3.7211654,0.5211654,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,2,15,15,0,,,No cone found
+8G46,5,C19,C,3,4,18.08111947,3.1656208,-0.034379244,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,15,15,0,,,Not accessible
+8G46,4,C20,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,15,0,,,Not accessible
+8G46,13,C24,C,3,4,7.145627462,3.416405,0.21640491,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,13,15,0.133333333,,,No cone found
+8G46,18,C3,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,15,0.266666667,,,Not accessible
+8G46,34,C10,C,2,4,5.799336309,3.1213622,-0.07863784,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,14,15,0.066666667,,,Not accessible
+8G46,7,C15,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,15,0.266666667,,,Not accessible
+8G46,26,C12,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,15,0.333333333,,,Not accessible
+8G46,25,C13,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,15,0.4,,,Not accessible
+8G46,8,C14,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,15,0.333333333,,,Not accessible
+8G46,29,C7,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,15,0.4,,,Not accessible
+8G46,28,C8,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,15,0.333333333,,,Not accessible
+8G46,30,N,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,15,0.2,,,Not accessible
+8G66,10,C05,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,15,0.4,,,Not accessible
+8G66,7,C24,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,15,0.2,,,Not accessible
+8G66,18,C25,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,15,0.133333333,,,Not accessible
+8G66,9,C03,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,15,0.266666667,,,Not accessible
+8G66,12,C07,C,1,3,0.026040714,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.026 <= 0.100,0,8,15,0.466666667,,,Not accessible
+8G66,2,C15,C,1,3,10.08635395,2.2945979,-0.9054022,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,13,15,0.133333333,,,Not accessible
+8G66,15,C16,C,1,3,32.68530334,5.046379,1.846379,ok,TRUE,1.4015546,2.2,3.6015546,57.5,65.81810187,22.36224719,26.49350179,0.695318956,-0.17159218,0.697916667,ok,,1,14,15,0.066666667,0.077361813,1.139479726,low rigidification
+8G66,3,C17,C,1,3,21.01399897,3.6556013,0.45560122,ok,TRUE,1.8460191,3.2,5.046019,50,62.9243439,23.95799204,28.37934248,0.898156405,-0.354257297,0.260416667,ok,,1,15,15,0,0.165120735,1.32140011,low rigidification
+8G66,16,C18,C,1,3,4.853472638,2.6271992,-0.5728009,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,14,15,0.066666667,,,Not accessible
+8G66,17,C19,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,15,0.4,,,Not accessible
+8G66,4,C20,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,15,0.466666667,,,Not accessible
+8G66,21,N09,N,1,3,0.135411304,1.5964786,-1.6035215,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,10,15,0.333333333,,,Not accessible
+8G66,23,N26,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,15,0.133333333,,,Not accessible
+8OJH,21,C,C,3,4,31.29671306,4.4668903,1.2668903,ok,TRUE,1.8460191,2.2,4.046019,50,8.048552568,58.58967189,-2.909427536,0.028787195,0.945989495,-0.322916667,ok,,2,10,10,0,0.077370484,1.139496402,low rigidification
+8OJH,13,C10,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,10,0.2,,,Not accessible
+8OJH,12,C9,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,7,10,0.3,,,Not accessible
+8OJH,17,N2,N,2,3,6.010926983,2.3231025,-0.8768976,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,9,10,0.1,,,Not accessible
+8OJH,1,C2,C,1,3,11.6472196,2.9372008,-0.26279926,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,9,10,0.1,,,Not accessible
+8OJH,2,C3,C,1,3,21.49010409,3.9627113,0.7627113,ok,TRUE,1.8460191,2.2,4.046019,50,8.920016939,59.62177633,-1.758894329,0.194616873,0.320375976,0.927083333,ok,,1,9,10,0.1,0.077370484,1.139496402,low rigidification
+8OJH,11,C8,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,6,10,0.4,,,Not accessible
+8OJH,9,N1,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,10,0.2,,,Not accessible
+8TNP,13,C14,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,6,9,0.333333333,,,Not accessible
+8TNP,17,C18,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,7,9,0.222222222,,,Not accessible
+8TNP,9,N10,N,2,3,7.987707995,3.0652163,-0.13478374,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,9,9,0,,,Not accessible
+8TNP,0,C1,C,1,3,4.083290829,2.4375246,-0.7624755,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,9,9,0,,,Not accessible
+8TNP,11,C12,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,5,9,0.444444444,,,Not accessible
+8TNP,1,C2,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,9,0,,,Not accessible
+8TNP,2,C3,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,9,0.111111111,,,Not accessible
+8TNP,15,N16,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,7,9,0.222222222,,,Not accessible
+8TNQ,7,C10,C,2,4,22.16418012,3.4752073,0.27520728,ok,TRUE,2.2,3.2,5.4,45,141.7450819,154.8327686,86.36097747,-0.204455542,0.140432792,-0.96875,ok,,1,12,13,0.076923077,0.165328246,1.321862997,low rigidification
+8TNQ,8,C11,C,2,4,3.407587473,2.4374287,-0.76257133,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,11,13,0.153846154,,,Not accessible
+8TNQ,16,C22,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,13,0.153846154,,,Not accessible
+8TNQ,17,C23,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,13,0.230769231,,,Not accessible
+8TNQ,5,C7,C,2,4,4.782893999,3.6487188,0.4487188,ok,TRUE,2.7167737,5.2,7.916774,39,138.7560572,152.9692946,88.08122272,0.184406329,0.326359922,-0.927083333,ok,,1,11,13,0.153846154,0.809261239,3.91915649,low rigidification
+8TNQ,6,C8,C,2,4,23.0670272,4.004383,0.80438304,ok,TRUE,2.2,2.2,4.4,45,138.6316587,152.9821866,85.23392458,-0.204455542,0.140432792,-0.96875,ok,,1,12,13,0.076923077,0.077894386,1.140504442,low rigidification
+8TNQ,9,C12,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,13,0.307692308,,,Not accessible
+8TNQ,10,C13,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,13,0.384615385,,,Not accessible
+8TNQ,13,C18,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,13,0.307692308,,,Not accessible
+8TNQ,3,C4,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,13,0.384615385,,,Not accessible
+8TNQ,19,N20,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,13,0.153846154,,,Not accessible
+8TNR,7,C10,C,2,4,38.0628885,5.2290807,2.0290806,ok,TRUE,1.8460191,2.2,4.046019,50,143.2198404,153.9439943,83.97504966,-0.461885608,0.777342596,-0.427083333,ok,,2,12,13,0.076923077,0.077370484,1.139496402,low rigidification
+8TNR,8,C11,C,2,4,14.06607239,4.366082,1.1660821,ok,TRUE,2.7167737,5.2,7.916774,39,142.4154253,151.7444878,87.43603617,0.106137472,0.640703777,-0.760416667,ok,,1,11,13,0.153846154,0.809261239,3.91915649,low rigidification
+8TNR,16,C22,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,13,0.153846154,,,Not accessible
+8TNR,17,C23,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,13,0.230769231,,,Not accessible
+8TNR,5,C7,C,2,4,4.319520227,3.4346867,0.23468661,ok,TRUE,2.7167737,2.2,4.916774,39,139.2760582,153.3217044,88.12679722,-0.148790029,0.790773333,-0.59375,ok,,1,11,13,0.153846154,0.078229141,1.141149011,low rigidification
+8TNR,6,C8,C,2,4,18.89853049,4.1633267,0.9633267,ok,TRUE,2.7167737,2.2,4.916774,39,135.6954964,155.0427575,82.3954008,0.762627714,0.256631852,0.59375,ok,,1,12,13,0.076923077,0.078229141,1.141149011,low rigidification
+8TNR,9,C12,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,13,0.307692308,,,Not accessible
+8TNR,10,C13,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,13,0.384615385,,,Not accessible
+8TNR,13,C18,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,13,0.307692308,,,Not accessible
+8TNR,3,C4,C,1,3,5.199129351,3.4361224,0.23612237,ok,TRUE,3.0280402,5.2,8.228041,36,141.5262711,153.0665228,90.11680074,0.106137472,0.640703777,-0.760416667,ok,,1,8,13,0.384615385,0.908413247,4.633098474,low rigidification
+8TNR,19,N20,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,13,0.153846154,,,Not accessible
+8TZX,10,C22,C,3,4,19.75989766,3.526038,0.32603788,ok,TRUE,3.8105118,5.2,9.010511,30,-13.58150112,23.1074401,37.62116916,-0.102460912,0.988115591,0.114583333,ok,,1,12,15,0.2,1.486017887,12.28170525,low rigidification
+8TZX,16,C29,C,3,4,35.09769548,4.2040324,1.0040324,ok,TRUE,0.38791937,2.2,2.5879195,80,-14.91782435,33.27096231,36.89784772,0.243995715,0.968376692,-0.052083333,ok,,2,15,15,0,0.029151666,1.050432909,low rigidification
+8TZX,4,C13,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,15,0.2,,,Not accessible
+8TZX,5,C14,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,15,0.133333333,,,Not accessible
+8TZX,11,C24,C,2,4,7.897777346,4.1439114,0.9439113,ok,TRUE,1.0258769,2.2,3.2258768,65,-13.19860577,31.63736286,35.42668147,0.54852936,0.80700928,-0.21875,ok,,1,14,15,0.066666667,0.076023592,1.136908935,low rigidification
+8TZX,12,C25,C,2,4,29.85049795,5.2824326,2.0824325,ok,TRUE,0.69365734,2.2,2.8936574,72.5,-11.13660617,32.0017548,37.46119417,0.54852936,0.80700928,-0.21875,ok,,2,15,15,0,0.069509918,1.124478416,low rigidification
+8TZX,13,C26,C,2,4,8.768104592,3.3199463,0.11994624,ok,TRUE,1.8460191,2.2,4.046019,50,-10.47399226,29.15469822,38.49782427,0.749027353,0.538898893,-0.385416667,ok,,1,14,15,0.066666667,0.077370484,1.139496402,low rigidification
+8TZX,14,C27,C,2,4,14.14650196,4.56997,1.3699701,ok,TRUE,1.4015546,2.2,3.6015546,57.5,-12.03921676,30.26096189,39.58989523,0.54852936,0.80700928,-0.21875,ok,,1,13,15,0.133333333,0.077361813,1.139479726,low rigidification
+8TZX,15,C28,C,2,4,20.09176761,5.036319,1.8363187,ok,TRUE,0.69365734,2.2,2.8936574,72.5,-13.68628129,32.45942198,38.07491825,0.028787195,0.945989495,-0.322916667,ok,,1,14,15,0.066666667,0.069509918,1.124478416,low rigidification
+8TZX,20,C7,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,15,0.4,,,Not accessible
+8TZX,0,C1,C,1,3,0.267927774,2.631633,-0.568367,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,9,15,0.4,,,Not accessible
+8TZX,3,C12,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,15,0.266666667,,,Not accessible
+8TZX,8,C20,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,15,0.266666667,,,Not accessible
+8TZX,9,C21,C,1,4,3.893986399,3.9303904,0.7303903,ok,TRUE,1.4015546,2.2,3.6015546,57.5,-14.12360216,29.20371356,39.29528421,0.243995715,0.968376692,-0.052083333,ok,,1,12,15,0.2,0.077361813,1.139479726,low rigidification
+8TZX,2,C3,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,15,0.466666667,,,Not accessible
+8TZX,19,C6,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,15,0.466666667,,,Not accessible
+8TZX,22,N16,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,15,0.133333333,,,Not accessible
+8U15,13,C10,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,19,0.157894737,,,Not accessible
+8U15,14,C11,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,17,19,0.105263158,,,Not accessible
+8U15,17,C14,C,2,4,6.320634832,3.6551604,0.45516038,ok,TRUE,4.3177433,3.2,7.517743,27,-12.738013,-4.994408392,-21.89363794,0.054726485,-0.881633966,0.46875,ok,,2,10,19,0.473684211,0.209671241,1.424590639,low rigidification
+8U15,25,C21,C,2,4,19.15681057,4.2385864,1.0385864,ok,TRUE,1.4015546,2.2,3.6015546,57.5,-16.62154402,-13.12254963,-19.12590516,0.269380396,-0.942477159,0.197916667,ok,,2,15,19,0.210526316,0.077361813,1.139479726,low rigidification
+8U15,20,C22,C,2,4,14.98694677,4.617134,1.417134,ok,TRUE,2.2,3.7,5.9,45,-20.42593491,-12.84178537,-20.74854466,0.473594659,-0.877719351,-0.072916667,ok,,1,17,19,0.105263158,0.263440614,1.559923534,low rigidification
+8U15,21,C23,C,2,4,4.311711674,3.2737777,0.073777676,ok,TRUE,3.387703,4.7,8.087703,33,-24.69597987,-11.8768862,-21.83386494,0.898156405,-0.354257297,0.260416667,ok,,1,18,19,0.052631579,0.974140072,5.176659836,low rigidification
+8U15,23,C24,C,2,4,12.61748046,3.6138446,0.4138446,ok,TRUE,4.941281,2.7,7.641281,24,-23.50181097,-8.825717883,-17.77602452,0.744646082,-0.660842757,0.09375,ok,,2,18,19,0.052631579,0.096967971,1.177817537,low rigidification
+8U15,24,C25,C,2,4,28.6234133,5.881313,2.6813128,ok,TRUE,3.0280402,2.2,5.22804,36,-18.80436621,-13.25539413,-16.5747435,0.008027256,-0.735862571,-0.677083333,ok,,2,17,19,0.105263158,0.078229141,1.141149011,low rigidification
+8U15,10,C7,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,19,0.315789474,,,Not accessible
+8U15,0,C1,C,1,3,0.875678461,2.6396327,-0.56036735,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,13,19,0.315789474,,,Not accessible
+8U15,30,C16,C,1,3,4.163323945,4.311732,1.1117318,ok,TRUE,6.7709036,5.2,11.970903,18,-15.01737084,-2.413397148,-18.08153566,-0.071654418,-0.996939859,0.03125,ok,,1,12,19,0.368421053,3.922886508,750.7507341,modest rigidification
+8U15,28,C17,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,19,0.368421053,,,Not accessible
+8U15,29,C18,C,1,3,11.94549381,5.0033617,1.8033617,ok,TRUE,3.387703,6.2,9.587703,33,-15.60449582,-8.558161328,-17.23730544,-0.405723434,-0.903908636,-0.135416667,ok,,1,13,19,0.315789474,1.873365867,23.6149326,low rigidification
+8U15,27,C19,C,1,3,2.477990768,3.2078676,0.007867575,ok,TRUE,2.4433475,2.2,4.6433477,42,-15.1710566,-10.50463906,-22.30990772,-0.071654418,-0.996939859,0.03125,ok,,1,13,19,0.315789474,0.078229141,1.141149011,low rigidification
+8U15,1,C2,C,1,3,1.137664296,3.2536867,0.05368662,ok,TRUE,6.7709036,7.7,14.470903,18,-18.10883737,-1.0281495,-21.10937388,0.269380396,-0.942477159,0.197916667,ok,,1,12,19,0.368421053,6.293458139,41033.33636,high rigidification
+8U15,3,C4,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,19,0.263157895,,,Not accessible
+8U15,12,C9,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,19,0.210526316,,,Not accessible
+8U15,7,N2,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,17,19,0.105263158,,,Not accessible
+8VL9,4,C15,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,16,0.0625,,,Not accessible
+8VL9,5,C16,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,16,0.0625,,,Not accessible
+8VL9,6,C17,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,16,0.0625,,,Not accessible
+8VL9,8,C19,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,16,0,,,Not accessible
+8VL9,9,C21,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,16,0.4375,,,Not accessible
+8VL9,1,C3,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,16,0.3125,,,Not accessible
+8VL9,25,C5,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,16,0.25,,,Not accessible
+8VL9,2,C12,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,16,0.1875,,,Not accessible
+8VL9,0,C2,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,16,0.375,,,Not accessible
+8VL9,11,C23,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,16,0.3125,,,Not accessible
+8VL9,15,C27,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,16,0.25,,,Not accessible
+8VL9,17,C29,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,16,0.0625,,,Not accessible
+8VL9,18,C30,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,16,0,,,Not accessible
+8VL9,20,C33,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,16,0.25,,,Not accessible
+8VL9,21,C34,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,16,0.1875,,,Not accessible
+8VL9,22,C35,C,1,3,0.969142057,2.409808,-0.7901921,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,14,16,0.125,,,Not accessible
+8VL9,23,C36,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,16,0.1875,,,Not accessible
+8VL9,24,C4,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,16,0.25,,,Not accessible
+8VL9,28,N13,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,16,0.125,,,Not accessible
+8VL9,29,N31,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,16,0,,,Not accessible
+8VL9,31,N9,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,16,0.5,,,Not accessible
+8VL9,34,O7,O,1,2,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,16,0.1875,,,Not accessible
+8VLB,0,CAA,C,3,4,7.014813761,3.724893,0.52489305,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,16,16,0,,,No cone found
+8VLB,32,CAB,C,3,4,16.33700841,3.363954,0.16395402,ok,TRUE,10.910784,7.7,18.610785,11.4,69.66708238,42.99390517,16.52578447,0.412424283,-0.431935802,0.802083333,ok,,2,16,16,0,8.844579934,3041739.957,high rigidification
+8VLB,8,CAC,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,16,0.0625,,,Not accessible
+8VLB,6,CAD,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,16,0.0625,,,Not accessible
+8VLB,7,CAE,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,16,0.0625,,,Not accessible
+8VLB,20,CAO,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,16,0.4375,,,Not accessible
+8VLB,15,CB,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,16,0.3125,,,Not accessible
+8VLB,12,CD2,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,16,0.25,,,Not accessible
+8VLB,16,CA,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,16,0.375,,,Not accessible
+8VLB,24,CAJ,C,1,3,0.562414641,2.9915442,-0.2084558,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,11,16,0.3125,,,Not accessible
+8VLB,22,CAK,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,16,0.3125,,,Not accessible
+8VLB,25,CAL,C,1,3,2.361162356,3.351662,0.15166187,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,12,16,0.25,,,No cone found
+8VLB,23,CAM,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,16,0.25,,,Not accessible
+8VLB,29,CAN,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,16,0,,,Not accessible
+8VLB,4,CBE,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,16,0.1875,,,Not accessible
+8VLB,13,CG,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,16,0.25,,,Not accessible
+8VLB,19,NAS,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,16,0.5,,,Not accessible
+8VLB,3,NAT,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,16,0.125,,,Not accessible
+8VLB,14,OD1,O,1,2,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,16,0.1875,,,Not accessible
+8VOJ,0,C1,C,1,4,0.503380749,3.145156,-0.05484414,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,6,9,0.333333333,,,Not accessible
+8VOJ,1,C2,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,6,9,0.333333333,,,Not accessible
+8VOJ,2,C3,C,1,4,4.414176223,4.096311,0.89631104,ok,TRUE,1.8460191,2.2,4.046019,50,161.8143395,209.943703,135.486855,0.008027256,-0.735862571,-0.677083333,ok,,1,6,9,0.333333333,0.077370484,1.139496402,low rigidification
+8VOJ,3,C4,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,6,9,0.333333333,,,Not accessible
+8VOJ,4,C5,C,1,4,2.657087951,4.193126,0.99312615,ok,TRUE,2.2,2.2,4.4,45,164.2912772,208.8946211,137.002812,-0.178610901,-0.506146306,-0.84375,ok,,1,6,9,0.333333333,0.077894386,1.140504442,low rigidification
+8VOJ,5,C6,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,6,9,0.333333333,,,Not accessible
+8VOJ,9,O31,O,1,2,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,9,0,,,Not accessible
+8VOJ,14,O32,O,1,2,0.344029123,3.2308786,0.030878544,ok,TRUE,16.060392,6.2,22.260391,7.8,160.8491188,225.2714927,148.9751011,0.008027256,-0.735862571,-0.677083333,ok,,1,9,9,0,,,high rigidification
+8VOJ,19,O33,O,1,2,31.04675766,3.7513537,0.5513537,ok,TRUE,1.8460191,2.2,4.046019,50,155.7672083,209.7433658,135.202521,0.139951384,-0.960735883,-0.239583333,ok,,1,9,9,0,0.077370484,1.139496402,low rigidification
+8VOJ,24,O34,O,1,2,3.631665089,2.194576,-1.005424,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,9,9,0,,,Not accessible
+8VOJ,29,O35,O,1,2,32.43425432,5.6465836,2.4465835,ok,TRUE,2.2,2.7,4.9,45,165.5573296,205.0221307,135.911032,-0.40196133,-0.130912286,-0.90625,ok,,1,9,9,0,0.09528461,1.174475885,low rigidification
+8VOJ,34,O36,O,1,2,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,9,0,,,Not accessible
+8VOJ,10,O41,O,1,2,0.152475617,2.0439475,-1.1560526,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,9,9,0,,,Not accessible
+8VOJ,15,O42,O,1,2,0.492548408,2.254364,-0.94563603,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,9,9,0,,,Not accessible
+8VOJ,20,O43,O,1,2,31.28134687,6.327458,3.1274579,ok,TRUE,1.8460191,2.2,4.046019,50,160.9138372,206.4099665,134.0040326,-0.529646084,-0.415320983,-0.739583333,ok,,1,9,9,0,0.077370484,1.139496402,low rigidification
+8VOJ,25,O44,O,1,2,24.85237241,4.963223,1.7632229,ok,TRUE,1.8460191,2.2,4.046019,50,159.4340441,205.7907089,136.059641,-0.795931541,-0.383101057,-0.46875,ok,,1,9,9,0,0.077370484,1.139496402,low rigidification
+8VOJ,30,O45,O,1,2,0.265142362,1.8172449,-1.3827552,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,9,9,0,,,Not accessible
+8VOJ,35,O46,O,1,2,0.514921066,2.1507978,-1.0492022,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,9,9,0,,,Not accessible
+9DJX,14,C27,C,3,4,28.52282084,4.0526867,0.85268664,ok,TRUE,1.4015546,2.2,3.6015546,57.5,17.37582458,12.76225504,-66.88719494,-0.66501498,-0.683008592,-0.302083333,ok,,1,15,15,0,0.077361813,1.139479726,low rigidification
+9DJX,15,C28,C,3,4,30.25590123,4.5102663,1.3102663,ok,TRUE,0.69365734,2.2,2.8936574,72.5,18.95065835,12.08134383,-66.6609501,0.473594659,-0.877719351,-0.072916667,ok,,3,15,15,0,0.069509918,1.124478416,low rigidification
+9DJX,4,C13,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,15,0.2,,,Not accessible
+9DJX,5,C14,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,15,0.133333333,,,Not accessible
+9DJX,9,C21,C,2,4,14.74934724,4.4175205,1.2175205,ok,TRUE,1.4015546,2.2,3.6015546,57.5,18.90091662,12.75217217,-62.58532545,0.269380396,-0.942477159,0.197916667,ok,,1,12,15,0.2,0.077361813,1.139479726,low rigidification
+9DJX,10,C22,C,2,4,9.715047518,3.3043,0.10430002,ok,TRUE,2.2,2.2,4.4,45,19.99046856,13.24358442,-63.94916577,0.744646082,-0.660842757,0.09375,ok,,1,13,15,0.133333333,0.077894386,1.140504442,low rigidification
+9DJX,12,C25,C,2,4,3.012009046,2.6469429,-0.5530572,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,12,15,0.2,,,Not accessible
+9DJX,13,C26,C,2,4,7.024071379,3.6795228,0.4795227,ok,TRUE,1.4015546,2.2,3.6015546,57.5,18.75255735,12.16575142,-66.38261994,-0.66501498,-0.683008592,-0.302083333,ok,,1,14,15,0.066666667,0.077361813,1.139479726,low rigidification
+9DJX,19,C7,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,15,0.4,,,Not accessible
+9DJX,0,C1,C,1,3,0.412623997,2.7287939,-0.4712062,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,9,15,0.4,,,Not accessible
+9DJX,3,C12,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,15,0.266666667,,,Not accessible
+9DJX,8,C20,C,1,4,1.262433805,3.2229445,0.02294445,ok,TRUE,2.2,2.2,4.4,45,16.7769921,15.25283734,-60.72293237,0.30378161,-0.804482169,-0.510416667,ok,,1,11,15,0.266666667,0.077894386,1.140504442,low rigidification
+9DJX,11,C23,C,1,4,9.118355421,5.027902,1.8279021,ok,TRUE,0.69365734,2.2,2.8936574,72.5,19.11528147,11.49100705,-65.0834833,0.269380396,-0.942477159,0.197916667,ok,,1,14,15,0.066666667,0.069509918,1.124478416,low rigidification
+9DJX,2,C3,C,1,3,0.020697873,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.021 <= 0.100,0,8,15,0.466666667,,,Not accessible
+9DJX,18,C6,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,15,0.466666667,,,Not accessible
+9DJX,21,N16,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,15,0.133333333,,,Not accessible
+9DOM,13,C12,C,2,4,2.097702735,4.137795,0.9377949,ok,TRUE,1.4015546,2.2,3.6015546,57.5,15.91047603,12.91415658,32.47994698,-0.310448372,0.937660784,-0.15625,ok,,2,10,18,0.444444444,0.077361813,1.139479726,low rigidification
+9DOM,25,C14,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,18,0.388888889,,,Not accessible
+9DOM,24,C15,C,2,4,2.596371413,4.026967,0.826967,ok,TRUE,1.4015546,3.2,4.6015544,57.5,16.70663332,13.2201969,29.61113319,-0.420407215,0.862644893,0.28125,ok,,1,12,18,0.333333333,0.154550701,1.29803514,low rigidification
+9DOM,21,C16,C,2,4,2.419932222,3.1081629,-0.09183717,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,11,18,0.388888889,,,Not accessible
+9DOM,22,C17,C,2,4,22.03150771,4.3596373,1.1596372,ok,TRUE,1.4015546,2.2,3.6015546,57.5,13.06347905,14.04143184,31.21914046,-0.747995935,0.610479517,-0.260416667,ok,,2,12,18,0.333333333,0.077361813,1.139479726,low rigidification
+9DOM,26,C18,C,2,4,25.48716045,5.7226276,2.5226276,ok,TRUE,0.38791937,2.2,2.5879195,80,12.88055329,16.23374423,29.30179276,-0.620857018,0.783854614,0.010416667,ok,,2,14,18,0.222222222,0.029151666,1.050432909,low rigidification
+9DOM,6,C2,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,18,0.166666667,,,Not accessible
+9DOM,5,C3,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,18,0.111111111,,,Not accessible
+9DOM,9,C5,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,18,0.333333333,,,Not accessible
+9DOM,7,C1,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,18,0.222222222,,,Not accessible
+9DOM,32,C20,C,1,3,15.85694895,3.4866846,0.2866845,ok,TRUE,0.69365734,2.2,2.8936574,72.5,16.88527668,16.52878107,28.02552111,-0.747995935,0.610479517,-0.260416667,ok,,1,16,18,0.111111111,0.069509918,1.124478416,low rigidification
+9DOM,31,C21,C,1,3,18.32836094,3.100628,-0.09937215,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,17,18,0.055555556,,,Not accessible
+9DOM,30,C22,C,1,3,22.5377996,3.476939,0.27693892,ok,TRUE,1.0258769,2.2,3.2258768,65,14.94905581,15.30596532,22.5824645,-0.195819462,0.810468217,0.552083333,ok,,1,18,18,0,0.076023592,1.136908935,low rigidification
+9DOM,29,C23,C,1,3,29.06560667,4.9719086,1.7719085,ok,TRUE,0.38791937,2.2,2.5879195,80,12.58291205,14.84198818,24.40775852,-0.756074416,0.382262887,-0.53125,ok,,1,17,18,0.055555556,0.029151666,1.050432909,low rigidification
+9DOM,28,C24,C,1,3,11.89326653,4.802261,1.6022608,ok,TRUE,0.69365734,2.2,2.8936574,72.5,12.21383115,14.4720303,27.55222994,-0.489503544,0.522779693,-0.697916667,ok,,1,16,18,0.111111111,0.069509918,1.124478416,low rigidification
+9DOM,17,C8,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,18,0.388888889,,,Not accessible
+9DOM,16,C9,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,18,0.444444444,,,Not accessible
+9DOM,2,N2,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,18,0.111111111,,,Not accessible
+9H59,0,C1,C,3,4,27.38093993,3.2677317,0.06773162,ok,TRUE,2.2,2.7,4.9,45,155.432704,142.7410467,80.37319782,0.612971657,-0.711408241,-0.34375,ok,,1,15,15,0,0.09528461,1.174475885,low rigidification
+9H59,17,C18,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,15,0.2,,,Not accessible
+9H59,18,C19,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,15,0.133333333,,,Not accessible
+9H59,1,C2,C,2,4,8.108164333,3.2326274,0.032627344,ok,TRUE,4.3177433,2.2,6.517743,27,153.0645447,144.0467566,81.43108074,0.631231705,-0.473110834,-0.614583333,ok,,1,14,15,0.066666667,0.078229141,1.141149011,low rigidification
+9H59,21,C4,C,2,4,15.27054388,4.849429,1.6494291,ok,TRUE,3.0280402,2.7,5.72804,36,152.4617251,143.7198873,77.9657951,0.859221236,-0.479979542,-0.177083333,ok,,2,13,15,0.133333333,0.096886187,1.177654966,low rigidification
+9H59,4,C5,C,2,4,2.899024569,2.9301527,-0.2698474,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,12,15,0.2,,,Not accessible
+9H59,5,C7,C,2,4,13.14280146,3.4285095,0.22850943,ok,TRUE,5.731196,9.2,14.931196,21,154.8438881,147.158926,81.4345546,-0.529646084,-0.415320983,-0.739583333,ok,,1,12,15,0.2,5.648600046,13818.23479,high rigidification
+9H59,6,C8,C,2,4,21.39035077,4.7371445,1.5371444,ok,TRUE,3.387703,2.7,6.0877028,33,150.5968405,143.4538251,79.95818468,0.071781385,-0.31032471,-0.947916667,ok,,1,12,15,0.2,0.096967971,1.177817537,low rigidification
+9H59,9,C11,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,15,0.4,,,Not accessible
+9H59,10,C12,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,15,0.466666667,,,Not accessible
+9H59,13,C15,C,1,3,0.709957593,2.5572205,-0.6427796,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,8,15,0.466666667,,,Not accessible
+9H59,15,C17,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,15,0.266666667,,,Not accessible
+9H59,2,C3,C,1,4,4.254894319,2.7228084,-0.4771917,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,12,15,0.2,,,Not accessible
+9H59,22,C6,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,15,0.266666667,,,Not accessible
+9H59,7,C9,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,15,0.266666667,,,Not accessible
+9H59,23,N1,N,1,3,0.057031265,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.057 <= 0.100,0,13,15,0.133333333,,,Not accessible
+9H59,3,N4,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,15,0.133333333,,,Not accessible

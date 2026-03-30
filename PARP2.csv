@@ -1,0 +1,113 @@
+pdb_id,attach_atom_index,attach_atom_name,attach_element,num_attached_H,degree,sasa_A2,min_dist_to_protein_A,clash_margin_A,growability_geom_status,growability_status,cone_height_A,cone_height_clear_A,cone_height_total_A,cone_half_angle_deg,cone_tip_x,cone_tip_y,cone_tip_z,cone_dir_x,cone_dir_y,cone_dir_z,cone_status,cone_reason,cone_n_accept_dirs,topo_eccentricity,topo_diameter,topo_center_score,G_total_corr_kcal,Kd_fold_from_G_total,linkerability
+3KJD,17,C18,C,3,4,3.4160903437191603,4.055672,0.8556721,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,7,8,0.125,,,No cone found
+3KJD,6,C15,C,2,4,0.937511174,3.9108293,0.71082926,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,8,8,0,,,No cone found
+3KJD,16,C16,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,8,0,,,Not accessible
+3KJD,7,C17,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,7,8,0.125,,,Not accessible
+3KJD,13,N11,N,2,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,8,0,,,Not accessible
+3KJD,8,C1,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,7,8,0.125,,,Not accessible
+3KJD,9,C2,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,6,8,0.25,,,Not accessible
+3KJD,2,C6,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,7,8,0.125,,,Not accessible
+3KJD,15,N14,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,7,8,0.125,,,Not accessible
+3KJD,12,N9,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,4,8,0.5,,,Not accessible
+4PJV,20,C19,C,3,4,0.390380843,4.106532,0.90653205,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,3,9,11,0.1818181818181817,,,No cone found
+4PJV,7,C10,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,11,0.090909091,,,Not accessible
+4PJV,13,C12,C,1,3,0.065744772,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.066 <= 0.100,0,8,11,0.2727272727272727,,,Not accessible
+4PJV,8,C13,C,1,3,8.339123563523346,3.9787438,0.77874374,ok,TRUE,2.7167737,5.7,8.416774,39,24.947319025051723,10.248390126985669,-6.733731675,0.5071175309795757,0.4057071638863858,0.7604166666666666,ok,,1,9,11,0.1818181818181817,0.884794479,4.45203791,low rigidification
+4PJV,9,C15,C,1,3,1.943171657871967,2.6376553,-0.5623448,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,9,11,0.1818181818181817,,,Not accessible
+4PJV,14,C16,C,1,3,0.3677835180259937,2.7662032,-0.43379688,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,8,11,0.2727272727272727,,,Not accessible
+4PJV,17,C18,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,11,0.1818181818181817,,,Not accessible
+4PJV,3,C5,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,6,11,0.4545454545454546,,,Not accessible
+4PJV,4,C6,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,6,11,0.4545454545454546,,,Not accessible
+4PJV,6,C8,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,8,11,0.2727272727272727,,,Not accessible
+4PJV,27,N2,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,11,0.1818181818181817,,,Not accessible
+4PJV,1,N3,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,6,11,0.4545454545454546,,,Not accessible
+4TVJ,0,CAJ,C,2,4,9.907573923537846,3.7891252,0.58912516,ok,TRUE,8.210512,7.2,15.410512,15,16.899557023990226,0.4926456749295882,10.935502223563567,-0.071654418,-0.996939859,0.03125,ok,,1,16,16,0,6.793983437923374,95504.62864017354,high rigidification
+4TVJ,1,CAK,C,2,4,0.6516800554431545,2.7712195,-0.42878056,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,16,16,0,,,Not accessible
+4TVJ,6,CAM,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,16,0.25,,,Not accessible
+4TVJ,8,CAN,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,16,0.25,,,Not accessible
+4TVJ,7,CAO,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,16,0.3125,,,Not accessible
+4TVJ,9,CAP,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,16,0.3125,,,Not accessible
+4TVJ,20,CAV,C,2,4,0.5538441816132633,3.0109618,-0.18903828,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,11,16,0.3125,,,Not accessible
+4TVJ,2,CAI,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,16,0.0625,,,Not accessible
+4TVJ,14,CAS,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,16,0.4375,,,Not accessible
+4TVJ,18,CAW,C,1,3,0.8385294069818798,4.5905747,1.3905747,ok,TRUE,10.910784,5.2,16.110785,11.4,20.56642956641545,-9.664668581,17.49641747661632,0.2439957149569294,0.9683766919290994,-0.052083333,ok,,1,11,16,0.3125,6.373611621270429,46977.48258488511,high rigidification
+4TVJ,17,CAX,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,16,0.375,,,Not accessible
+4TVJ,23,CBB,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,16,0.125,,,Not accessible
+4TVJ,26,CBD,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,16,0.0625,,,Not accessible
+4TVJ,24,CBE,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,16,0.0625,,,Not accessible
+4TVJ,25,CBF,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,16,0,,,Not accessible
+4TVJ,30,NAH,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,16,0.125,,,Not accessible
+4ZZX,17,C18,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,10,0,,,Not accessible
+4ZZX,10,C11,C,2,4,3.224162656381373,3.4730084,0.27300835,ok,TRUE,5.731196,9.7,15.431196,21,3.273866871572496,15.322490078943536,60.07581691,0.7446460823589747,-0.660842757,0.09375,ok,,2,6,10,0.4,5.6486000460153045,13818.234785719991,high rigidification
+4ZZX,13,C14,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,7,10,0.3,,,Not accessible
+4ZZX,16,C17,C,2,4,0.044650024,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.045 <= 0.100,0,8,10,0.1999999999999999,,,Not accessible
+4ZZX,5,C6,C,2,4,0.014367315,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.014 <= 0.100,0,6,10,0.4,,,Not accessible
+4ZZX,9,N10,N,2,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,10,0,,,Not accessible
+4ZZX,11,C12,C,1,3,0.068946958,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.069 <= 0.100,0,8,10,0.1999999999999999,,,Not accessible
+4ZZX,12,C13,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,10,0.1,,,Not accessible
+4ZZX,14,C15,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,10,0.1,,,Not accessible
+4ZZY,10,C14,C,2,4,4.533264732712839,2.8824058,-0.3175943,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,7,14,0.5,,,Not accessible
+4ZZY,9,C15,C,2,4,8.190442371963622,3.3901446,0.19014454,ok,TRUE,3.8105118,8.7,12.510511,30,20.63461483040068,-25.36991555,5.199016337409568,0.4735946593184922,-0.877719351,-0.072916667,ok,,1,8,14,0.4285714285714286,3.503344751881402,369.8022287289645,modest rigidification
+4ZZY,11,C17,C,2,4,0.5771338673231846,4.007883,0.807883,ok,TRUE,10.910784,8.2,19.110785,11.4,12.648184296752843,-17.91468708,5.411299045,0.7446460823589747,-0.660842757,0.09375,ok,,1,8,14,0.4285714285714286,9.077445521934877,4506234.0359028205,high rigidification
+4ZZY,12,C18,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,7,14,0.5,,,Not accessible
+4ZZY,6,C21,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,14,0.2142857142857143,,,Not accessible
+4ZZY,5,C22,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,14,0.1428571428571429,,,Not accessible
+4ZZY,1,C24,C,2,4,1.962305672967681,3.1902268,-0.009773254,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,12,14,0.1428571428571429,,,Not accessible
+4ZZY,0,C25,C,2,4,11.103581746954235,2.9709055,-0.2290945,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,11,14,0.2142857142857143,,,Not accessible
+4ZZY,15,C9,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,14,0.2857142857142857,,,Not accessible
+4ZZY,27,N19,N,2,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,14,0,,,Not accessible
+4ZZY,23,C1,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,14,0.071428571,,,Not accessible
+4ZZY,13,C13,C,1,4,2.876004567,4.7393107,1.5393107,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,8,14,0.4285714285714286,,,No cone found
+4ZZY,7,C20,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,14,0.2857142857142857,,,Not accessible
+4ZZY,20,C3,C,1,3,0.026353184,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.026 <= 0.100,0,12,14,0.1428571428571429,,,Not accessible
+7R59,11,C2,C,1,3,8.322664119046397,3.9162083,0.7162082,ok,TRUE,9.379747,5.2,14.579748,13.2,2.963919078699756,-5.753175848,12.878821317406686,0.2439957149569294,0.9683766919290994,-0.052083333,ok,,1,5,7,0.2857142857142857,5.168908120088078,6149.445341111412,modest rigidification
+7R59,7,C3,C,1,3,8.252348413,3.3075643,0.10756421,ok,TRUE,13.007181,2.2,15.207181,9.6,-2.979833374,-5.922650187,3.365993929421471,0.5480326873529221,0.6782096529208034,0.4895833333333333,ok,,1,4,7,0.4285714285714286,0.078229141,1.1411490112081966,low rigidification
+7R59,2,C6,C,1,3,0.1543952161635561,2.2510455,-0.9489546,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,5,7,0.2857142857142857,,,Not accessible
+7R59,4,C8,C,1,3,0.085794662,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.086 <= 0.100,0,6,7,0.1428571428571429,,,Not accessible
+7R59,9,O1,O,1,2,6.062709171430959,2.3747613,-0.8252387,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,7,7,0,,,Not accessible
+8HE8,23,C23,C,3,4,9.110835880768924,4.0306964,0.83069634,ok,TRUE,16.060392,5.2,21.260391,7.8,-0.745338077,-8.419758251,27.93051664105945,-0.756074416,0.3822628871781931,-0.53125,ok,,2,16,16,0,,,high rigidification
+8HE8,24,C25,C,3,4,2.899665379155988,4.399052,1.1990521,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,2,16,16,0,,,No cone found
+8HE8,16,C09,C,2,4,0.012740287,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.013 <= 0.100,0,11,16,0.3125,,,Not accessible
+8HE8,3,C17,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,16,0.3125,,,Not accessible
+8HE8,21,C18,C,2,4,3.6665664800759177,3.6315997,0.43159962,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,12,16,0.25,,,No cone found
+8HE8,4,C20,C,2,4,0.1504139021338842,2.644018,-0.5559821,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,11,16,0.3125,,,Not accessible
+8HE8,6,C22,C,2,4,5.689470066355802,2.9280894,-0.27191067,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,15,16,0.0625,,,Not accessible
+8HE8,7,C24,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,16,0.0625,,,Not accessible
+8HE8,11,C04,C,1,3,1.1258172565782705,3.2380424,0.038042307,ok,TRUE,8.210512,8.2,16.410511,15,-11.62492896,1.594652359986326,31.350656262979182,0.4735946593184922,-0.877719351,-0.072916667,ok,,1,14,16,0.125,7.026548031363289,141414.9910044671,high rigidification
+8HE8,12,C05,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,16,0.0625,,,Not accessible
+8HE8,13,C06,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,16,0,,,Not accessible
+8HE8,14,C07,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,16,0.0625,,,Not accessible
+8HE8,17,C11,C,1,3,1.9267708354287123,4.322856,1.1228559,ok,TRUE,10.910784,5.7,16.610785,11.4,-15.24731326,1.0924340039618867,24.79131618738175,0.5475019374405752,-0.753206892,0.3645833333333335,ok,,1,11,16,0.3125,6.644937979560249,74263.14562653369,high rigidification
+8HE8,18,C12,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,16,0.375,,,Not accessible
+8HE8,2,C15,C,1,3,2.522318480090612,3.0538635,-0.14613652,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,9,16,0.4375,,,Not accessible
+8HE8,5,C21,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,16,0.125,,,Not accessible
+8HE8,26,N01,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,16,0.125,,,Not accessible
+8HKN,11,C05,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,16,0.3125,,,Not accessible
+8HKN,0,C10,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,16,0.3125,,,Not accessible
+8HKN,16,C11,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,16,0.3125,,,Not accessible
+8HKN,17,C12,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,16,0.25,,,Not accessible
+8HKN,13,C07,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,16,0.4375,,,Not accessible
+8HKN,3,C17,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,16,0.375,,,Not accessible
+8HKN,20,C18,C,1,3,1.6774742032879555,4.408941,1.2089407,ok,TRUE,10.910784,9.2,20.110785,11.4,20.12400249,5.353130899,45.22066571881908,-0.66501498,-0.683008592,-0.302083333,ok,,1,11,16,0.3125,9.107854837347132,4743554.846,high rigidification
+8HKN,21,C19,C,1,3,2.171755914957478,3.5003607,0.30036068,ok,TRUE,20.931602,4.7,25.631601,6,33.93447453624166,0.5052394748865163,45.04282331828048,-0.953914234,-0.225558478,-0.197916667,ok,,1,14,16,0.125,,,high rigidification
+8HKN,4,C20,C,1,3,0.4214886606338231,2.2497602,-0.9502399,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,15,16,0.0625,,,Not accessible
+8HKN,5,C21,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,16,16,0,,,Not accessible
+8HKN,6,C22,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,16,0.0625,,,Not accessible
+8HKN,31,N06,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,16,0.125,,,Not accessible
+9IM8,12,C06,C,3,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,15,0,,,Not accessible
+9IM8,6,C22,C,3,4,7.525017566758564,4.04852,0.84852004,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,15,15,0,,,No cone found
+9IM8,11,C05,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,15,0.066666667,,,Not accessible
+9IM8,18,C14,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,15,0.3333333333333333,,,Not accessible
+9IM8,2,C15,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,15,0.2666666666666667,,,Not accessible
+9IM8,19,C16,C,2,4,1.3031323600942395,3.240767,0.040766954,ok,TRUE,0,0,0,0,0,0,0,0,0,0,ok,,1,12,15,0.1999999999999999,,,No cone found
+9IM8,20,C18,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,11,15,0.2666666666666667,,,Not accessible
+9IM8,21,C19,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,15,0.1333333333333333,,,Not accessible
+9IM8,4,C20,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,15,0.066666667,,,Not accessible
+9IM8,5,C21,C,2,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,14,15,0.066666667,,,Not accessible
+9IM8,8,C02,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,15,0.1999999999999999,,,Not accessible
+9IM8,14,C08,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,10,15,0.3333333333333333,,,Not accessible
+9IM8,15,C09,C,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,9,15,0.4,,,Not accessible
+9IM8,17,C12,C,1,3,0.9624207173167802,3.1861455,-0.013854504,ok,FALSE,,,,,,,,,,,no_accept_dir,no directions with d >= r_excl_A (3.20),0,8,15,0.4666666666666667,,,Not accessible
+9IM8,3,C17,C,1,4,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,12,15,0.1999999999999999,,,Not accessible
+9IM8,24,N02,N,1,3,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,13,15,0.1333333333333333,,,Not accessible
+9IM8,30,O04,O,1,2,0,,,skipped_sasa,FALSE,,,,,,,,,,,skipped_sasa,sasa_A2=0.000 <= 0.100,0,15,15,0,,,Not accessible
